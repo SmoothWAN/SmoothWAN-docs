@@ -1,0 +1,36 @@
+site_name: SmoothWAN
+repo_url: https://github.com/TalalMash/SmoothWAN
+repo_name: TalalMash/SmoothWAN
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.instant
+  icon:
+    repo: fontawesome/brands/github-alt
+
+plugins:
+  - search
+nav:
+  - Overview: 'index.md'
+  - Features: 'features.md'
+  - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
+  - Quick Installation: 'installation.md'
+  - FAQ: 'faq.md'
+  - 'Additional Configurations':
+    - 'Pi-hole' : 'poh.md'
+    - 'Tailscale' : 'tail.md'
+    - 'AdGuard Home GL.iNet' : 'adg.md'
+    - 'Bypass clients to a specific WAN' : 'wanbyp.md'
+  - 'Advanced Configurations':
+    - 'Cheap unmanaged switch Multi-WAN using MACVLAN' : 'macvlan.md'
+    - 'Equal bandwidth distribution to connected clients' : 'hostqos.md'
+  - Tips N' Tricks: 'tips.md' 
+  - 'Device Specific Documents':
+    - 'Slate AX': 'slate.md'
+    - 'Raspberry Pi 4': 'rpi4.md'
+    - 'Displays and indicators': 'disp&indic.md'
+    - 'Modems and tethering devices': 'modemtethr.md'
+  - Development Notes: 'devl.md'
+  - Contact: 'contact.md'
+  - Sponsors: 'sponsors.md'
