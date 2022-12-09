@@ -17,13 +17,13 @@ Wiki is under development.
 
  ***
 
-<h3>Motives</i> ?</h3>
+<h3>Motives</h3>
 As of (2022) I couldn't find an afforadable mixed usage multi-mode bonding software and a service that is cost effective, nor a reliable OSS solution.
 <details> 
 <summary>More details</summary>
-<b>Note:</b> These are my own findings and they are not accurate. <br>
+<b>Note:</b> These are my own findings/review and they are not accurate. <br>
 <br>
-- Includes optimization for non-livestreaming services in addition to livestreaming, e.g realtime connections. <br>
+- Includes optimization for non-livestreaming services in addition to livestreaming, e.g SSH, games etc. <br>
 - Relatively affordable due to publicly shared servers. <br>
 - Server region selection for region restricted services and multiple backup public servers. <br>
 - Application aware conditioning in "Streaming mode": sensitive streams packets (when detected) are duplicated across WANs and prioritized for VoIP, video calls, streaming, and games for seamless failover and lossless connectivity even when combining lossy WANs. While non-sensitive streams packets are aggregated across WANs for the speed of the total combined WANs, and bulk downloads using single sockets are aggregated. Sensitive streams are also aggregated with high quality sources. <br>
