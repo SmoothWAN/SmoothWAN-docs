@@ -5,7 +5,7 @@
 This project is not affiliated with Speedify or Connectify.<br>
 <br>
 <h3>Use cases: </h3>
-- Build a reliable internet access with seamless failover, lossless and usable single-flow speeds by bonding two or more connections, preferably a combination of wired and wireless with baseline ISP plans as an afforadable solution. e.g rural areas, developing countries...
+- Build a reliable internet access with seamless failover, lossless and usable single-flow speeds by bonding two or more connections, preferably a combination of wired and wireless with baseline ISP plans as an affordable solution. e.g rural areas, developing countries...
 - Cover all connected devices in a home network when it's not possible or practical to share a WAN per each device running Speedify.  
 - Low budget alternative to commonly used solutions
 - Backpack streaming setup. (RTMP and others in LXC containers)
@@ -13,13 +13,15 @@ This project is not affiliated with Speedify or Connectify.<br>
 <img src="https://raw.githubusercontent.com/TalalMash/SmoothWAN-web/main/smoothwan-illust.drawio.svg" width="600"/> <br>  
 <sub>[- More info on Pi's Wi-Fi setup](https://github.com/TalalMash/SmoothWAN/discussions/18#discussioncomment-2521688)<br>- Slate AX/Flint is easier to setup with no extra hardware.</sub>  
   
+Wiki is under development.
+
  ***
 
 <h3>Motives</i> ?</h3>
-As of now I couldn't find an afforadable mixed usage **multi-mode** bonding software and a service that is reasonably affordable. Commonly used solutions do not segregate traffic or change bonding methods on line quality variance.
+As of (2022) I couldn't find an afforadable mixed usage multi-mode bonding software and a service that is cost effective, nor a reliable OSS solution.
 <details> 
 <summary>More details</summary>
-<b>Notes:</b> These are my own findings and they are not accurate. <br>
+<b>Note:</b> These are my own findings and they are not accurate. <br>
 <br>
 - Includes optimization for non-livestreaming services in addition to livestreaming, e.g realtime connections. <br>
 - Relatively affordable due to publicly shared servers. <br>
