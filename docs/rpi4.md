@@ -7,7 +7,7 @@ Indicates poor power supply, use the official RPi power supply or a 5.3V adapter
 
 ## Red LED flashing erratically
 Indicates poor power supply.*
-* You can reduce power consumption as well as performance (~180Mbit) by editing `config.txt` in SD and adding `arm_freq=1000` at the end of the file.
+* You can reduce power consumption as well as performance (~180-Mbit) by editing `config.txt` in SD and adding `arm_freq=1000` at the end of the file.
 
 ## Unable to connect to "SmoothWAN Setup" SSID
 Setup in close proximity to the Pi, signal is not an indicator to use.  

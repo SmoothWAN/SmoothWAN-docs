@@ -6,7 +6,7 @@
 An interface name that starts with "br-" prefix is ignored.
 
 ### Speedify bypass (domain based) not working with PPPoE interfaces
-Speedify seems to use the gateway of each WAN as the DNS resolve for bypass, this issue is common with PPPoE and providers offering alternate DNS servers   
+As of 12.6, Speedify seems to use the gateway of each WAN as the DNS resolve for bypass, this issue is common with PPPoE and providers offering alternate DNS servers   
 No workarounds yet.  
 Use VPN Policy Based Routing in the meantime.
 

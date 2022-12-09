@@ -1,4 +1,4 @@
-<h3>(Note: An upcoming guide with better visuals will be avaliable soon)</h3>
+<h3>(Note: An upcoming guide with better visuals will be available soon)</h3>
 <h2>Installation using a smartphone as an example for quick setup</h2>
 <b>Note:</b> Slate AX or Flint is recommended for ease of use due to built in stable Wi-Fi adapters, no extra hardware is needed.<br>
   

@@ -13,7 +13,7 @@ Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimi
 ### Hide interface or WAN from Speedify
 Rename interface to start with "br-"
 ### Check downloaded image integrity
-You can use https://emn178.github.io/online-tools/sha256_checksum.html to check the file for errors, the calculated sum is in `sha256.*` file in the Releases section.  
+You can use [in-browser tools](https://emn178.github.io/online-tools/sha256_checksum.html) to check the file for errors, the calculated sum is in `sha256.*` file in the Releases section.  
 ### Persistent statistics (graphs) on power cycles
 Visit _Statistics->Setup_ and in _RRDtool output plugin_ set _Storage Directory_ to `/etc/rrd`  
 High endurance or MLC SD card is recommended but not required

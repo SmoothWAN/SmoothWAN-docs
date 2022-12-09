@@ -18,7 +18,7 @@ Wiki is under development.
  ***
 
 <h3>Motives</h3>
-As of (2022) I couldn't find an afforadable mixed usage multi-mode bonding software and a service that is cost effective, nor a reliable OSS solution.
+As of (2022) I couldn't find an affordable mixed usage multi-mode bonding software and a service that is cost effective, nor a reliable OSS solution.
 <details> 
 <summary>More details</summary>
 <b>Note:</b> These are my own findings/review and they are not accurate. <br>

@@ -1,13 +1,14 @@
-_**Quick build:**_
-- Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/
-- Clone repo and copy the corresponding device from devconfigs and packages to imagebuilder root.
-- For OLED dashboard, build "ssd" from https://github.com/TalalMash/SSD1306_OLED_json or use the bundled executable/
-- Run "sh build.sh"
-- Images will be located in bin/
-- Note:   
- 1- For compiling SmoothWAN packages, compile smoothwan-feeds with OpenWRT build system. Pre-compiled packages are included for easy customization, quick builds and imagebuilder-only setup.<br>
- 2- GL.iNet builds are full-builds and require comprehensive setup. More at: https://github.com/gl-inet/gl-infra-builder  
+_**Quick build:**_  
+- Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/  
+- Clone repo and copy the corresponding device from devconfigs and packages to imagebuilder root.  
+- For OLED dashboard, build "ssd" from https://github.com/TalalMash/SSD1306_OLED_json or use the bundled executable/  
+- Run "sh build.sh"  
+- Images will be located in bin/    
 
+**Notes:**  
+  
+- For compiling SmoothWAN packages, compile smoothwan-feeds with OpenWRT build system. Pre-compiled packages are included for easy customization, quick builds and imagebuilder-only setup.<br>  
+- GL.iNet builds are full-builds and require comprehensive setup. More at: https://github.com/gl-inet/gl-infra-builder   
 
 ***
 

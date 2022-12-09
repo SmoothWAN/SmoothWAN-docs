@@ -1,6 +1,7 @@
-  ### Written by https://github.com/DalSoft  
-  ### If you are using Speedify for privacy do a DNS leak test  
-  Depending on the configuration of devices (e.g. ISP's locked down modem / router) you plug into the WAN ports to bond - your ISP DNS servers may leak.   
+#### Written by https://github.com/DalSoft  
+### If you are using Speedify for privacy do a DNS leak test  
+
+Depending on the configuration of devices (e.g. ISP's locked down modem / router) you plug into the WAN ports to bond - your ISP DNS servers may leak.   
 
   If this is something you don't want then:  
   1. Do an extended [dnsleaktest](https://www.dnsleaktest.com).  

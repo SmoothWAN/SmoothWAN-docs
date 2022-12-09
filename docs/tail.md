@@ -6,7 +6,7 @@ Log result should be similar to:
 <img src="https://user-images.githubusercontent.com/96490382/156564555-812292a4-2932-47f4-b2bb-10f652cd2e01.png"/>  
 Visit: http://172.17.17.2:8088/ to login/signup to Tailscale.  
   
-After a succesful login, visit: https://login.tailscale.com/admin/machines and toggle settings as the following:
+After a successful login, visit: https://login.tailscale.com/admin/machines and toggle settings as the following:
 <img src="https://github.com/TalalMash/smoothwan-feeds/raw/main/luci-app-tailscaleconf/root/www/luci-static/resources/view/tailscaleconf/3.png" width="600"/>  
 <img src="https://github.com/TalalMash/smoothwan-feeds/raw/main/luci-app-tailscaleconf/root/www/luci-static/resources/view/tailscaleconf/4.png"/>  
 <img src="https://github.com/TalalMash/smoothwan-feeds/raw/main/luci-app-tailscaleconf/root/www/luci-static/resources/view/tailscaleconf/5.png" width="600"/>  

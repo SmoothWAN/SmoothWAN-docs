@@ -10,7 +10,7 @@
 - Few modems especially ISP supplied will cause rogue DHCP scenario. They **reject** DHCP messages but the server is still **on** for internal reasons. MACVLAN is not suitable in this case.  
 - MACVLAN is used for budget/fleet setups.  
 - Do not enable software offload in firewall when using MACVLAN as it may affect the ARP table.  
-- Some no-name 100Mbit switches will perform poorly with multiple addresses from the same port due to limited switching fabric. Use a gigabit switch.  
+- Some no-name 100-Mbit switches will perform poorly with multiple addresses from the same port due to limited switching fabric. Use a gigabit switch.  
 - Disable IPv6 on all modems.  
 
 **Diagnostics:**  
