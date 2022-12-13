@@ -1,18 +1,31 @@
 _**Quick build:**_  
-- Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/  
+<details><summary>Raspberry Pi 4 and PC</summary>  
+  
+- Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/ 
 - Clone repo and copy the corresponding device from devconfigs and packages to imagebuilder root.  
-- For OLED dashboard, build "ssd" from https://github.com/TalalMash/SSD1306_OLED_json or use the bundled executable/  
-- Run "sh build.sh"  
-- Images will be located in bin/    
+- For OLED dashboard, build "ssd" from https://github.com/TalalMash/SSD1306_OLED_json or use the bundled executable/ 
+- Run "sh build.sh" 
+- Compiled image is in `bin/...`
+</details>
+<details><summary>Gl.iNet Slate AX / Flint</summary>
+  
+- `git clone https://github.com/gl-inet/gl-infra-builder.git`
+- `sudo apt install build-essential clang flex g++ gawk gcc-multilib gettext \
+git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev \
+file wget`
+- `python3 setup.py -c configs/config-wlan-ap.yml`
+- `cd wlan-ap/openwrt`
+- `./scripts/gen_config.py target_wlan_ap-gl-ax1800 luci`
+- `cp -r SmoothWAN/devconfigs/flint/. .` #Modify to smoothwan location
+- Modify feed.conf last line to point to SmoothWAN pre-compiled packages
+- `make -j20`
+- Compiled image is in `bin/targets/ipq...`
+</details>
 
 **Notes:**  
   
 - For compiling SmoothWAN packages, compile smoothwan-feeds with OpenWRT build system. Pre-compiled packages are included for easy customization, quick builds and imagebuilder-only setup.<br>  
 - GL.iNet builds are full-builds and require comprehensive setup. More at: https://github.com/gl-inet/gl-infra-builder   
-
-***
-
-
 * `glibc` is included from Debian Buster since Speedify does not provide `musl` builds. Lib included: `libc6_2.31-13+deb11u2`, `libgcc1_8.3.0-6_armhf` for armv7. Concerning security with the bundled binaries, you can compare the checksum of the included binaries by extracting the Debian package.
 * Bundled "ssd" binary (SSD1306 OLED support) is built from https://github.com/TalalMash/SSD1306_OLED_json with Dockerfile (x86:buster,arm64-qemu:focal), e.g:  
 `docker build -t ssd .`  
