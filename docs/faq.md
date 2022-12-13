@@ -11,11 +11,12 @@ No workarounds yet.
 Use VPN Policy Based Routing in the meantime.
 
 ### Speedify installer issues
-Possible remedies:
-- Wait around a minute on fresh start or after plugging in single WAN to synchronize date/time
-- Use the best quality WAN during installation
-- Reboot after first boot
-- Submit an issue.
+Possible remedies:  
+
+- Wait around a minute on fresh start or after plugging in single WAN to synchronize date/time  
+- Use the best quality WAN during installation  
+- Reboot after first boot  
+- Submit an issue.  
 
 ### Internet connectivity issue on PC/x86 build
 Depending on the hardware and how interfaces are brought up, OpenWRT may create a default WAN interface on first boot as `WAN` and `WAN_6`.

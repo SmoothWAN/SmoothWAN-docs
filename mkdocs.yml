@@ -38,6 +38,7 @@ nav:
     - 'Equal bandwidth distribution to connected clients' : 'hostqos.md'
     - 'DNS Leak configuration' : 'dnsleak.md'
   - 'Device Specific Documents':
+    - 'Flint' : 'flint.md'
     - 'Slate AX': 'slate.md'
     - 'Raspberry Pi 4': 'rpi4.md'
     - 'Displays and indicators': 'disp&indic.md'

@@ -29,8 +29,8 @@ Display output is enabled after Speedify is running.
 * Refer to https://github.com/talalmash/SSD1306_OLED_json/<br>
 * For modular PC/x86, and other boards, use the second I2C port and use wires (non-pluggable), you can change the i2c port and address in config.json if only one port is available.
 
-<details><summary><strong>Custom battery scripts  </strong></summary>  
-
+!!! note "Custom battery scripts"
+ 
 Pi UPS INA219:  
 ![image](https://user-images.githubusercontent.com/96490382/165628877-c3d9d892-5ed4-47e6-b535-68ffdf3c56e2.png)   
 /etc/rc.local (append before exit 0)   
@@ -57,5 +57,3 @@ else
         fi
 fi
 ```
-  
-</details>
