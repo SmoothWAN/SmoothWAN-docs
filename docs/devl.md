@@ -1,6 +1,6 @@
 _**Quick build**_  
 ??? note "Raspberry Pi 4 and PC"
- 
+
     - Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/ 
     - Clone repo and copy the corresponding device from devconfigs and packages to imagebuilder root. 
     - For OLED support, build "ssd" from https://github.com/TalalMash/SSD1306_OLED_json or use the bundled executable/ 
@@ -9,7 +9,7 @@ _**Quick build**_
   
 
 ??? note "Gl.iNet Slate AX / Flint"
-  
+
     - `git clone https://github.com/gl-inet/gl-infra-builder.git` 
     - `sudo apt install build-essential clang flex g++ gawk gcc-multilib gettext \
     git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev \
@@ -17,8 +17,9 @@ _**Quick build**_
     - `python3 setup.py -c configs/config-wlan-ap.yml` 
     - `cd wlan-ap/openwrt` 
     - `./scripts/gen_config.py target_wlan_ap-gl-ax1800 luci` 
-    - `cp -r SmoothWAN/devconfigs/flint/. .` #Modify to smoothwan location 
-    - Modify feed.conf last line to point to SmoothWAN pre-compiled packages 
+    - `git clone https://github.com/TalalMash/smoothwan-feeds.git`
+    - ./scripts/feeds update -a
+    - ./scripts/feeds install -a
     - `make -j20` 
     - Compiled image is in `bin/targets/ipq...` 
 
