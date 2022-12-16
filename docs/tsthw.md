@@ -3,8 +3,9 @@
 
 ### USB Ethernet Adapter
 * Kensington K33981WW
-
-**Not recommended:**
+ 
+**Not recommended:**  
+ 
 * TP-Link and U-Green ASIX-based chipset
 * Non-brand name Realtek-based chipset 
 * Flat cable type and/or cable length >15cm
