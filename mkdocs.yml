@@ -1,6 +1,6 @@
 site_name: SmoothWAN
-repo_url: https://github.com/TalalMash/SmoothWAN
-repo_name: TalalMash/SmoothWAN
+repo_url: https://github.com/SmoothWAN/SmoothWAN
+repo_name: SmoothWAN
 theme:
   name: material
   logo: assets/logo.png
