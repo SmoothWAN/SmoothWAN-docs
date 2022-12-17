@@ -16,10 +16,11 @@ _**Quick build**_
     file wget` 
     - `python3 setup.py -c configs/config-wlan-ap.yml` 
     - `cd wlan-ap/openwrt` 
+    - Copy the content of the `flint` folder in main SmoothWAN repo here
     - `./scripts/gen_config.py target_wlan_ap-gl-ax1800 luci` 
     - `git clone https://github.com/TalalMash/smoothwan-feeds.git`
-    - ./scripts/feeds update -a
-    - ./scripts/feeds install -a
+    - `./scripts/feeds update -a`
+    - `./scripts/feeds install -a`
     - `make -j20` 
     - Compiled image is in `bin/targets/ipq...` 
 
