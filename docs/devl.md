@@ -16,7 +16,7 @@ _**Quick build**_
     file wget` 
     - `python3 setup.py -c configs/config-wlan-ap.yml` 
     - `cd wlan-ap/openwrt` 
-    - Copy the content of the `flint` folder in main SmoothWAN repo here
+    - Copy the content of the `flint` or 'slateax' folder in main SmoothWAN repo to current directory
     - `./scripts/gen_config.py target_wlan_ap-gl-ax1800 luci` 
     - `git clone https://github.com/TalalMash/smoothwan-feeds.git`
     - `./scripts/feeds update -a`
@@ -37,7 +37,7 @@ Commit `f55d893` Docker build checksums:
 x86: `3535b79f3a95a9f2edf9b1be1c3e14bf624f72d05159fe14912a0091cb8500cd`  
 arm64: `22adbde150f1de78dc73223654b6988839d6ca8168530c4b082e054a104690c4`  
 Will be packaged and compiled with OpenWRT in v1.0
-* Model-View Lua based LuCI apps are bugged with newer OpenWRT versions, the following apps are included in `files` and not packaged for compatibility:  
+* Model-View Lua based LuCI apps are incosistent with newer OpenWRT ubus versions, the following apps are included in `files` and unpackaged for compatibility:  
 ` luci-app-wifibasic  `  
 ` luci-app-swanportfw `   
 ` luci-app-swaninterfaces  `  
