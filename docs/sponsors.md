@@ -10,7 +10,7 @@
 **Maté Donors ❤**
 
 *Special thanks to:*  
-<img src="https://github.com/SmoothWAN/SmoothWAN-misc/blob/main/donors.drawio.svg"/>  
+<img src="https://raw.githubusercontent.com/SmoothWAN/SmoothWAN-misc/main/donors.drawio.svg"/>  
 *Privacy note:*  
  Add `***` at the end of the donation message if you want to be exempt from this list.
 
