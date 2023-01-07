@@ -4,7 +4,7 @@
 ***
 
 ## USB WiFi Adapters in Client Mode
-## Supported models/chipsets:
+## Supported models/chipset:
 - [AR9271](https://deviwiki.com/wiki/Atheros_AR9271#Table_of_Systems), tested models:
     - ALFA AWUS036NHA (beware of counterfeits)
   
@@ -16,7 +16,7 @@ https://wireless.wiki.kernel.org/en/users/wi-fi-alliance-certification
 As a better alternative, wireless repeaters with ethernet sockets work as clients in bridge mode (automatically set, no configuration), optionally hide the repeater SSID. This solution is a decent alternative for stability, Wi-Fi 6E support, higher speeds and better range.
 
 ## Setup
-- Plug in the dongle to a USB port that will remian fixed, changing ports requires reconfiguration
+- Plug in the dongle to a USB port that will remain fixed, changing ports requires reconfiguration
 - Restart/Reboot SmoothWAN
 - Configure in Network -> Wireless 
 - Hit `Scan` and follow through, tick `Replace existing configuration` and set firewall to RED zone

@@ -1,4 +1,4 @@
-_**Quick build**_  
+_**Quick build hints**_  
 ??? note "Raspberry Pi 4 and PC"
 
     - Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/ 
@@ -16,8 +16,8 @@ _**Quick build**_
     file wget` 
     - `python3 setup.py -c configs/config-wlan-ap.yml` 
     - `cd wlan-ap/openwrt` 
-    - Copy the content of the `flint` or 'slateax' folder in main SmoothWAN repo to current directory
-    - `./scripts/gen_config.py target_wlan_ap-gl-ax1800 luci` 
+    - Copy the content of the `flint` or `slateax` folder in main SmoothWAN repo to current directory
+    - `./scripts/gen_config.py target_wlan_ap-gl-ax1800 luci` (replace ax1800 with axt1800 for Slate AX)
     - `git clone https://github.com/TalalMash/smoothwan-feeds.git`
     - `./scripts/feeds update -a`
     - `./scripts/feeds install -a`
