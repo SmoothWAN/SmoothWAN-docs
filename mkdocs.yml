@@ -26,17 +26,17 @@ nav:
   - Overview: 'index.md'
   - Features: 'features.md'
   - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
-  - Quick Installation: 'installation.md'
-  - Tips N' Tricks: 'tips.md' 
+  - Quick Setup: 'installation.md'
+  - Engarde: 'engarde.md'
+  - TinyFEC: 'tinyfec.md'
+  - Tips & Tricks: 'tips.md' 
   - 'Additional Configurations':
-    - 'Pi-hole' : 'poh.md'
     - 'Tailscale' : 'tail.md'
     - 'AdGuard Home GL.iNet' : 'adg.md'
     - 'Bypass clients to a specific WAN' : 'wanbyp.md'
   - 'Advanced Configurations':
     - 'Cheap unmanaged switch Multi-WAN using MACVLAN' : 'macvlan.md'
     - 'Equal bandwidth distribution to connected clients' : 'hostqos.md'
-    - 'DNS Leak configuration' : 'dnsleak.md'
   - 'Device Specific Documents':
     - 'Flint' : 'flint.md'
     - 'Slate AX': 'slate.md'

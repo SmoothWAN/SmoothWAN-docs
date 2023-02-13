@@ -9,7 +9,9 @@ Set Firewall zone to RED, and gateway metric to 10 or more.
 * Set one WAN as "Primary", preferably the landline or the lowest latency, others as "Secondary".    
 * Set transport mode to UDP, and rate limit each to 70% of max speed.  
 * Optionally set mode to redundant.
-Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimized and use a different path (redundant - low buffer).  
+* Engarde may perform better than Speedify in this case
+
+*Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimized and use a different path (redundant - low buffer).* 
 ### Hide interface or WAN from Speedify
 Rename interface to start with "br-"
 ### Check downloaded image integrity
@@ -19,3 +21,5 @@ Visit _Statistics->Setup_ and in _RRDtool output plugin_ set _Storage Directory_
 High endurance or MLC SD card is recommended but not required
 ### Wiregurad over Speedify
 See discussion [#79](https://github.com/TalalMash/SmoothWAN/discussions/79#discussioncomment-4131043).
+### Identifying client using P2P or BitTorrent
+![](/assets/p2p.jpg)

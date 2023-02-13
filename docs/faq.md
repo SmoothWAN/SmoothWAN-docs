@@ -20,7 +20,7 @@ Possible remedies:
 
 ### Internet connectivity issue on PC/x86 build
 Depending on the hardware and how interfaces are brought up, OpenWRT may create a default WAN interface on first boot as `WAN` and `WAN_6`.
-Delete these interfaces in _Network -> Interfaces_ and restart. (Fixed in next release)
+Delete these interfaces in _Network -> Interfaces_ and restart.
 
 ### SQM QoS affecting performance
 Unequal link bonding adds artificial latency and buffer, it's recommended to disable SQM or add 20% of total aggregated speed in shaper for QoS related functions only such as per-host distribution, diffserv, and etc.

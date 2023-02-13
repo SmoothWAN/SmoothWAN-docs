@@ -1,4 +1,5 @@
-<h1>Setting up OLED display for stats (RPi4)</h1>
+<h1>Setting up OLED display for stats</h1> 
+<h1>(Version 0.99.6->8 only!)</h1>
 
 ## Reference Diagram
 

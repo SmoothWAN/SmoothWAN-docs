@@ -3,6 +3,6 @@
 
 ### Troubleshooting
 
-## Slate AX Wi-Fi scan results empty
+## Slate AX Wi-Fi scan results empty (Only in version 0.99.8)
 Disable existing AP/configurations (click Disable buttons) before scanning.  
 This issue will be fixed in v1 as well as 802.11s (mesh) support.

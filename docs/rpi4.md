@@ -1,3 +1,5 @@
+*Note: I no longer own one to test and they're hard to source!*  
+*Last tested version was 0.99.8*
 ### Ports layout
 <img src="https://raw.githubusercontent.com/TalalMash/SmoothWAN/88f9bfccce30fef116f0d509d05e2df78f8f8b2d/devconfigs/rpi4/files/www/luci-static/bootstrap/mwanusb.svg"/>
 ### Troubleshooting
