@@ -1,4 +1,4 @@
-AdGuard Home is a local network-wide advertising blocker
+##AdGuard Home is a local network-wide advertising blocker
 
 *How to enable adblocking*
 
@@ -7,4 +7,4 @@ AdGuard Home is a local network-wide advertising blocker
 
 *Notes*
 
-- You can change password in the configuration tab of this page.
+- You can change password in the configuration tab.

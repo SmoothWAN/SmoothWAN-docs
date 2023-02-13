@@ -32,6 +32,10 @@ _**Quick build hints**_
 - GL.iNet builds are full-builds and require comprehensive setup. More at: https://github.com/gl-inet/gl-infra-builder   
 * `glibc` is included from Debian Buster since Speedify does not provide `musl` builds. Lib included: `libc6_2.31-13+deb11u2`, `libgcc1_8.3.0-6_armhf` for armv7. 
 Binaries are sideloaded during build.
+- All binaries are generated on Github Actions
+    - Engarde : <https://github.com/SmoothWAN/engarde>
+    - TinyFEC : <https://github.com/SmoothWAN/tinyfecVPN>
+    - ntopng : <https://github.com/SmoothWAN/SmoothWAN-chroot-imagebuilder>
 
 * Model-View Lua based LuCI apps are incosistent with newer OpenWRT ubus versions, the following apps are included in `files` and unpackaged for compatibility:  
 ` luci-app-wifibasic  `  
