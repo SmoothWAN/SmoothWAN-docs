@@ -32,7 +32,7 @@ nav:
   - Tips & Tricks: 'tips.md' 
   - 'Additional Configurations':
     - 'Tailscale' : 'tail.md'
-    - 'AdGuard Home GL.iNet' : 'adg.md'
+    - 'AdGuard Home' : 'adg.md'
     - 'Bypass clients to a specific WAN' : 'wanbyp.md'
   - 'Advanced Configurations':
     - 'Cheap unmanaged switch Multi-WAN using MACVLAN' : 'macvlan.md'
