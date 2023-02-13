@@ -34,6 +34,9 @@ Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting s
 - [BitTorrent detection log](/tips/#identifying-client-using-p2p-or-bittorrent) showing client IP address as the source
 - Per-client (LAN) bandwidth limiter (EQoS)
 
+*Typical setup*  
+<img src="https://raw.githubusercontent.com/TalalMash/SmoothWAN-web/main/smoothwan-illust.drawio.svg" width="600"/>
+
 *WebUI preview*
   
 <img src="https://user-images.githubusercontent.com/96490382/208723215-92bb40df-c56d-4f82-b597-707aa8e35f7b.gif" width="800"/>
