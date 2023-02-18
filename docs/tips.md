@@ -1,3 +1,10 @@
+### Wiregurad over Speedify
+See discussion [#79](https://github.com/TalalMash/SmoothWAN/discussions/79#discussioncomment-4131043).
+### Identifying client using P2P or BitTorrent
+![](/assets/p2p.jpg)
+### Leak protected DNS 
+Tick `Ignore resolv file` in `Network -> DHCP and DNS -> Resolve...`
+Do not disable if one of your WANs require portal access (login page to access internet)
 ### Quick VLAN setup
 Assuming ISP modem is plugged at trunk #1 on the managed switch:  
 Network -> Interfaces -> Devices -> Add device configuration (change _Device Name_ for friendly name in Speedify UI) 
@@ -11,15 +18,12 @@ Set Firewall zone to RED, and gateway metric to 10 or more.
 * Optionally set mode to redundant.
 * Engarde may perform better than Speedify in this case
 
-*Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimized and use a different path (redundant - low buffer).* 
+*Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimized and use a different path (redundant - low buffer).*   
+*UDP mode is processing heavy, requires a PC instead of router/Pi for >30Mbit to control bufferbloat`*
 ### Hide interface or WAN from Speedify
 Rename interface to start with "br-"
 ### Check downloaded image integrity
 You can use [in-browser tools](https://emn178.github.io/online-tools/sha256_checksum.html) to check the file for errors, the calculated sum is in `sha256.*` file in the Releases section.  
-### Persistent statistics (graphs) on power cycles
+### Persistent statistics (graphs) on power cycles (version 0.99.8 and below)
 Visit _Statistics->Setup_ and in _RRDtool output plugin_ set _Storage Directory_ to `/etc/rrd`  
 High endurance or MLC SD card is recommended but not required
-### Wiregurad over Speedify
-See discussion [#79](https://github.com/TalalMash/SmoothWAN/discussions/79#discussioncomment-4131043).
-### Identifying client using P2P or BitTorrent
-![](/assets/p2p.jpg)
