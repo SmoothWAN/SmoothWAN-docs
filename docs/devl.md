@@ -1,9 +1,8 @@
 _**Quick build hints**_  
 ??? note "Raspberry Pi 4 and PC"
 
-    - Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/21.02.1/targets/ 
+    - Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/22.03.3/targets/ 
     - Clone repo and copy the corresponding device from devconfigs and packages to imagebuilder root. 
-    - For OLED support, build "ssd" from https://github.com/TalalMash/SSD1306_OLED_json or use the bundled executable/ 
     - Run "sh build.sh" 
     - Compiled image is in `bin/...` 
   
@@ -30,14 +29,10 @@ _**Quick build hints**_
 - For compiling SmoothWAN packages, compile `smoothwan-feeds` with OpenWRT build system.
 - Pre-compiled packages are included for easy customization, quick builds and imagebuilder-only setup.<br>  
 - GL.iNet builds are full-builds and require comprehensive setup. More at: https://github.com/gl-inet/gl-infra-builder   
-* `glibc` is included from Debian Buster since Speedify does not provide `musl` builds. Lib included: `libc6_2.31-13+deb11u2`, `libgcc1_8.3.0-6_armhf` for armv7. 
-Binaries are sideloaded during build.
+* `glibc` is included from Debian Buster since Speedify does not provide `musl` builds. Lib included: `libc6_2.31-13+deb11u2`, and `libgcc1_8.3.0-6_armhf` for armv7. 
+Binaries are sideloaded during build. Check `sideload-glibc.sh` for sources.
 - All binaries are generated on Github Actions
     - Engarde : <https://github.com/SmoothWAN/engarde>
     - TinyFEC : <https://github.com/SmoothWAN/tinyfecVPN>
     - ntopng : <https://github.com/SmoothWAN/SmoothWAN-chroot-imagebuilder>
 
-* Model-View Lua based LuCI apps are incosistent with newer OpenWRT ubus versions, the following apps are included in `files` and unpackaged for compatibility:  
-` luci-app-wifibasic  `  
-` luci-app-swanportfw `   
-` luci-app-swaninterfaces  `  
