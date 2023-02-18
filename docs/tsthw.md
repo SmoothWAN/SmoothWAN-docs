@@ -30,6 +30,8 @@
 * SanDisk Industrial MLC MicroSD SDHC UHS-I Class 10
 * SanDisk 32GB High Endurance Video (longterm test unconfirmed)
 
+### Note for PCs: USB flash drives are not recommended [#109](https://github.com/SmoothWAN/SmoothWAN/discussions/109), use SD card with USB reader if there is no internal storage.
+
 ***
 
 ## Notes:
