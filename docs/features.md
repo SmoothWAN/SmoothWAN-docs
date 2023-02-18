@@ -4,6 +4,7 @@
 - Preset network configuration for various hardware
 - Data caps and consumption in Speedify are persistent due to the previously mentioned features
 - Bypass Speedify with selective WAN for local devices/ports/domains using a PBR and/or Speedify's internal bypass with a LuCI app for adaptive WAN selection using data caps and other conditions
+- [ntopng installer](https://www.ntop.org/products/traffic-analysis/ntop/) for deep packet analysis, real-time flow performance metrics, and traffic identification.
 - [AdGuard Home](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-AdGuard-Home-(GL.iNet)) pre-installed and pre-configured (one-click enable) with password change UI addition
 - [Tailscale installer](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-Tailscale) for easy remote access to connected devices in your home network  
 - [PnP mini-display support](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-OLED-display-for-stats-(RPi4)) for displaying Speedify info, typically used for backpack streaming
