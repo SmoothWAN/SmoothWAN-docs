@@ -36,7 +36,7 @@ Check your IP address at ping.eu,speedtest.net,etc... to check if it's working c
 <h3>Notes:</h3>
 
 - The server is setup to forward all ports to your SmoothWAN appliance/router.<br>
-- Modern implementation UPnP is automatically configured and enabled for Open NAT.<br>
+- Modern implementation UPnP is automatically configured and enabled for automatic port forwarding.<br>
 - You can also forward ports in VPN -> VPN Port Forwarding.<br>
 - Changing password is done by simply changing the cloud-init field and doing a server reinstall.<br>
 - VPN via server providers is (usually) not log-free as it's used for abuse monitoring, privacy may be equivalent to a direct ISP connection.<br>
