@@ -16,6 +16,6 @@
 
 ***
 
-[Buy me maté 🧉](https://www.paypal.com/paypalme/talalmsb/1)  
+~~Buy me maté 🧉~~ , project is now dedicated to Parrot Rescue Lebanon.
   
 [Donate to Parrot Rescue Lebanon 🦜](https://www.parrotrescuelebanon.com/)
