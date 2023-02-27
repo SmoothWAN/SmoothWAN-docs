@@ -30,7 +30,7 @@ nav:
   - Quick Setup: 'installation.md'
   - Engarde: 'engarde.md'
   - TinyFEC: 'tinyfec.md'
-  - Tips & Tricks: 'tips.md' 
+  - Tips & Troubleshooting: 'tips.md' 
   - 'Additional Configurations':
     - 'Tailscale' : 'tail.md'
     - 'AdGuard Home' : 'adg.md'
