@@ -2,9 +2,8 @@
 See discussion [#79](https://github.com/TalalMash/SmoothWAN/discussions/79#discussioncomment-4131043).
 ### Identifying client using P2P or BitTorrent
 ![](/assets/p2p.jpg)
-### Leak protected DNS 
-Tick `Ignore resolv file` in `Network -> DHCP and DNS -> Resolve...`
-Do not disable if one of your WANs require portal access (login page to access internet)
+### Cannot connect to Wi-Fi 2.4Ghz client (Wireless WAN)
+Check for connected USB 3.0+ devices as it's a [common issue with 2.4Ghz Wi-Fi](https://en.wikipedia.org/wiki/USB_3.0#Issues)
 ### Quick VLAN setup
 Assuming ISP modem is plugged at trunk #1 on the managed switch:  
 Network -> Interfaces -> Devices -> Add device configuration (change _Device Name_ for friendly name in Speedify UI) 
