@@ -1,7 +1,7 @@
 <h1>Setting up OLED display for stats</h1> 
-<h1>(Version 0.99.6->8 only!)</h1>
+<h2>Version 0.99.6(8) only</h2>
 
-Fix for Speedify 12.6+, type in terminal: `wget -O - https://raw.githubusercontent.com/SmoothWAN/SmoothWAN-misc/main/OLEDfix.sh | sh`
+`Won't display correctly with Speedify 12.6 or higher`
 
 ## Reference Diagram
 
