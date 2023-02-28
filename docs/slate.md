@@ -6,3 +6,7 @@
 ## Slate AX Wi-Fi scan results empty (Only in version 0.99.8)
 Disable existing AP/configurations (click Disable buttons) before scanning.  
 This issue will be fixed in v1 as well as 802.11s (mesh) support.
+
+## 802.11k/v/s/r Support
+GL.iNet wpad full versions are still stripped, force update from OpenWrt official server after installation and reboot:  
+`opkg update && opkg remove wpad-basic-wolfssl && opkg install wpad-wolfssl --force-overwrite`
