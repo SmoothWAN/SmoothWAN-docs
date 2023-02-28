@@ -17,4 +17,4 @@
 * (Simple) Microsoft Rogue DHCP Checker should show one DHCP server:    
 <img src="https://user-images.githubusercontent.com/96490382/167432465-d0816b39-ddb1-43fd-9925-916f05284f67.png" width=300px/>    
 
-* (Advanced) For Linux/MacOS, disconnect SmoothWAN, disconnect client from network, listen on broadcast with Wireshark, connect client to network, observe for any DHCP message, there should be none.
+* (Advanced) For Linux/MacOS, disconnect SmoothWAN, disconnect client from network, listen on broadcast with Wireshark, connect client to network, observe for any DHCP message, there should be a single source.
