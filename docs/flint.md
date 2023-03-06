@@ -6,4 +6,4 @@ I do not own the hardware, post your feedback in the issues page.
 
 ## 802.11k/v/s/r Support
 GL.iNet wpad full versions are still stripped, force update from OpenWrt official server after installation and reboot:  
-`opkg update && opkg remove wpad-wolfssl && opkg install wpad-wolfssl --force-overwrite`
+`opkg update && opkg remove wpad-openssl && opkg install wpad-openssl --force-overwrite`
