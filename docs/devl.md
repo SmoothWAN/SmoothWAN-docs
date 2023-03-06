@@ -1,7 +1,7 @@
 _**Quick build hints**_  
 ??? note "Raspberry Pi 4 and PC"
 
-    - Grab your imagebuilder device target archive from: https://downloads.openwrt.org/releases/22.03.3/targets/ 
+    - Get your imagebuilder device target archive from: https://downloads.openwrt.org/releases/22.03.3/targets/ 
     - Clone repo and copy the corresponding device from devconfigs and packages to imagebuilder root. 
     - Run "sh build.sh" 
     - Compiled image is in `bin/...` 
@@ -20,7 +20,8 @@ _**Quick build hints**_
     - `git clone https://github.com/TalalMash/smoothwan-feeds.git`
     - `./scripts/feeds update -a`
     - `./scripts/feeds install -a`
-    - `./sideload-glibc.sh'
+    - `./sideload-glibc.sh`
+    - Copy the `.config` file from the `flint` or `slateax` folder in main SmoothWAN repo to current directory
     - `make -j20` 
     - Compiled image is in `bin/targets/ipq...` 
 
