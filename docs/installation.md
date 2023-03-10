@@ -1,4 +1,5 @@
 <h3>(Note: An upcoming guide with better visuals is WIP)</h3>
+<b>Speedify users: Free accounts are not supported (last update: March 2023)</b>
 <h2>Installation using a smartphone as an example for quick setup</h2>
 <b>Note:</b> Slate AX or Flint is recommended for ease of use due to built in stable Wi-Fi adapters, no extra hardware is needed.<br>
   
