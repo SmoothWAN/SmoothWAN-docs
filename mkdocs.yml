@@ -28,6 +28,7 @@ nav:
   - Features: 'features.md'
   - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
   - Quick Setup: 'installation.md'
+  - Discussions: "https://smoothwan.discourse.group"
   - Engarde: 'engarde.md'
   - TinyFEC: 'tinyfec.md'
   - Tips & Troubleshooting: 'tips.md' 
