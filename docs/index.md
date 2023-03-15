@@ -25,7 +25,8 @@ Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting s
 *Additional features*
 
 - [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) pre-installed and pre-configured (one-click enable) with password change UI addition
-- Custom Speedify version selection and tune/tweaks (bypasses)
+- Dnsmasq DHCP is disabled and replaced with AdGuard Home DHCP. [(revert)](https://smoothwan.com/adg/#due-to-popular-request-and-leak-proof-dns-adgh-is-the-default-dhcp-server)
+- Custom Speedify version selection, GUI for built-in custom bypass, and tuning.
 - Preset network configuration for various hardware
 - VPN PBR pre-configured
 - [Tailscale](https://tailscale.com/) installer and pre-configuration
