@@ -22,6 +22,8 @@ Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting s
 - Low budget alternative to commonly used solutions
 - Backpack streaming setup. (RTMP and others are possible in LXC)
 
+**Note: If you need to combine multiple stable internet connections above 100Mbit, consider load balancers with the GL.iNet Slate/Flint 4.2.0 official firmware which includes Wi-Fi and easier to setup compared to the TP-Link series.**
+
 *Additional features*
 
 - [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) pre-installed and pre-configured (one-click enable) with password change UI addition
