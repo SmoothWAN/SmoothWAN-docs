@@ -22,7 +22,7 @@ Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting s
 - Low budget alternative to commonly used solutions
 - Backpack streaming setup. (RTMP and others are possible in LXC)
 
-**Note: If you need to combine multiple stable internet connections above 100Mbit, consider load balancers with the GL.iNet Slate/Flint 4.2.0 official firmware which includes Wi-Fi and easier to setup compared to the TP-Link series.**
+**Note: If you need to combine multiple stable internet connections above 100Mbit, consider a load balancer such as the GL.iNet Slate/Flint 4.2.0 official firmware which includes Wi-Fi and easier to setup compared to the TP-Link Multi-WAN series.**
 
 *Additional features*
 
