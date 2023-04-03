@@ -9,7 +9,7 @@
 
 ### Split-tunneling for leak-proof bypass
 
-In rare cases where Speedify adapter restarts, [PBR](https://docs.openwrt.melmac.net/pbr/) will automatically re-apply the tables leading to potentional leak with certain P2P programs.  
+In rare cases where Speedify adapter restarts, [PBR](https://docs.openwrt.melmac.net/pbr/) will automatically re-apply the tables leading to potential leak with certain P2P programs.  
 
 The solution is to use routing tables, note that this will also act as a kill-switch for the particular WAN when Speedify is down, meaning that the non-split-tunneled clients won't be able to use it when Speedify is down, the next connected WAN will be used instead unless it's also in split-tunneling mode. Clients that are bypassed are uninterrupted.
 

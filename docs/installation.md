@@ -8,7 +8,7 @@
 ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/1slate.svg){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/flintports.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-- The Slate or Flint is now broadcasting as a Wi-Fi access point for easy configuration, connect your phone to Wi-Fi `SmoothWAN Setup 2.4 or 5Ghz` with password: `brassworld`. <br>
+- The Slate or Flint is now broadcasting as a Wi-Fi access point for easy configuration, disable mobile data and connect your phone to Wi-Fi `SmoothWAN Setup 2.4 or 5Ghz` with password: `brassworld`. <br>
 - In your browser, visit: http://172.17.17.2 there is no password set: <br>
 
 ![](assets/setup/1.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
