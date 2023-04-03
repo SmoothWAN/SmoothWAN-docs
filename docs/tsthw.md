@@ -16,8 +16,8 @@
 * AT&T Nighthawk M6 Pro by @chalk4#0933 (longterm test unconfirmed)
 
 ### Power Supply
-* Samsung Type-C chargers (most models no-load = 5.2V)
-* Official Raspberry Pi 4 USB-C Power Supply
+* Pi4/Slate: Samsung Type-C chargers (most models no-load = 5.2V)
+* Pi4/Slate: Official Raspberry Pi 4 USB-C Power Supply
 * QwikFone QC3.0 Car charger
 
 ### Network Switch
@@ -39,6 +39,6 @@
 * Tests are not recommendations, community reports are not always accurate, use the list for reference only.
 * Android USB tethering may be limited to ~150 Mbit due to networking emulation.
 * iOS 13+ USB tethering is not officially supported since it is impractical:
-    - Need to tap "Trust" on every power up with `usbmuxd` unlike iTunes
-    - If cellular signal is weak, tethering will automatically disconnect requiring physical reconnection to continue tethering.
+    - Need to tap "Trust" on every reconnection/hiccup up with `usbmuxd` unlike iTunes
+    - If cellular signal is weak, tethering will automatically disconnect requiring USB physical reconnection to continue tethering.
     - [Partial workarounds](https://openwrt.org/docs/guide-user/network/wan/smartphone.usb.tethering#extras)

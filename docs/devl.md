@@ -22,7 +22,7 @@ _**Quick build hints**_
     - `./scripts/feeds install -a`
     - `./sideload-glibc.sh`
     - Copy the `.config` file from the `flint` or `slateax` folder in main SmoothWAN repo to current directory
-    - `make -j20` 
+    - `make -j20 V=sc` 
     - Compiled image is in `bin/targets/ipq...` 
 
 **Notes:**  

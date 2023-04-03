@@ -44,7 +44,6 @@ nav:
     - 'Slate AX': 'slate.md'
     - 'Raspberry Pi 4': 'rpi4.md'
     - 'Tested Hardware': 'tsthw.md'
-    - 'Displays and indicators': 'disp&indic.md'
     - 'Wi-Fi, modems, and tethering devices': 'modemtethr.md'
   - Development Notes: 'devl.md'
   - FAQ: 'faq.md'

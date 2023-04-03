@@ -8,5 +8,7 @@
 
 Tip: 
 * Reduce the additional 20% added if there is no effect in small increments, test the results by downloading a large file with parallel sockets (download accelerator or speed test) on two clients with a 10 second delay before starting the download on the second client, both should show the speed each at ~50% of the total aggregate speed.   
-* Normally, the delayed client will use 1/4th or so without host isolation shaping unless both clients start at the same time.  
+
+* Without this setup, the delayed client will use 1/4th or so without host isolation shaping unless both clients (TCP) start at the same time due to bursty throughput, the effect is less noticable with near servers (less than 30ms delay).  
+
 * Equal distribution works when all lines are in good conditions or near the speed set in SQM only.

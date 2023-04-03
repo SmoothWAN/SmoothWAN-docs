@@ -10,12 +10,12 @@ Network -> Interfaces -> Devices -> Add device configuration (change _Device Nam
 <img src="https://user-images.githubusercontent.com/96490382/166711545-70232fd3-dc40-4f06-9a05-4d6fb6697d89.png" width=500 />  
 Network -> Interfaces -> Add new interface   
 <img src="https://user-images.githubusercontent.com/96490382/166711876-88b897a8-4439-4c77-b3eb-0b333be3a869.png" width=500 />  
-Set Firewall zone to RED, and gateway metric to 10 or more.
+Set Firewall zone to RED, and gateway metric to `200` or more.
 ### Reduce bufferbloat - Gaming (less bandwidth gain)
 * Set one WAN as "Primary", preferably the landline or the lowest latency, others as "Secondary".    
 * Set transport mode to UDP, and rate limit each to 70% of max speed.  
 * Optionally set mode to redundant.
-* Engarde may perform better than Speedify in this case
+* Engarde may perform better than Speedify in this case (you should limit the speed per WAN too via SQM)
 
 *Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimized and use a different path (redundant - low buffer).*   
 *UDP mode is processing heavy, requires a PC instead of router/Pi for >30Mbit to control bufferbloat`*

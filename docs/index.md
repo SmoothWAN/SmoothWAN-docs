@@ -1,9 +1,12 @@
 <h1>Welcome</h1>
+
+**[Donate to Parrot Rescue Lebanon 🦜](https://www.parrotrescuelebanon.com/)**  
+
 <img src="https://user-images.githubusercontent.com/96490382/185179903-4cbac04d-d0f7-47e2-b81a-167803205d33.png" width="800"/>
-<h2>Internet bonding router with seamless failover using Speedify (primarily)</h2>  
-<i>SmoothWAN</i> is a custom [OpenWRT](https://openwrt.org/) router distribution for fixed internet bonding setup using Speedify primarily, with an emphasis on using an internet browser for easy configuration. <br>  
+<h2>Internet bonding router with seamless failover using Speedify</h2>  
+<i>SmoothWAN</i> is a custom [OpenWRT](https://openwrt.org/) router distribution for fixed internet bonding setup using Speedify, with an emphasis on using an internet browser for easy configuration. <br>  
 This project is not affiliated with Speedify or Connectify.<br>
-Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting solutions.<br>
+Also includes [Engarde](https://github.com/porech/engarde) and [TinyFEC VPN](https://github.com/wangyu-/tinyfecVPN) as alternatives and self-hosting solutions.<br>
 
 *Supported hardware*
 
@@ -11,31 +14,24 @@ Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting s
 - GL.iNet Flint
 - GL.iNet Slate AX
 - Raspberry Pi 4 / Pi 400
-- Banana Pi R64/R3 (soon)
+- Banana Pi R64/R3 (need tester)
 
 *Use cases*  
 
 - Use [Speedify](https://speedify.com/) to build a reliable internet access with seamless failover, lossless and aggregated single-flow speeds by bonding two or more connections, preferably a combination of wired and wireless with baseline ISP plans as an affordable solution. e.g rural areas, developing countries...
 - Cover all connected devices in a home network when it's not possible or practical to share a WAN per each device running Speedify.  
 - Use [Engarde](/engarde) as an self-hosting alternative to Speedify's Redundant mode (lossless by duplicating traffic across WANs - no aggregation)
-- Use [TinyFEC VPN](/tinyfec) for fixing a lossy unusable internet connection using forward-error-correction (single WAN - self-hosting)
-- Low budget alternative to commonly used solutions
-- Backpack streaming setup. (RTMP and others are possible in LXC)
+- Use [TinyFEC VPN](/tinyfec) for fixing a lossy unusable internet connection using forward-error-correction at a speed cost (single WAN - self-hosting)
+- Significantly lower budget alternative to commonly used solutions (Speedify)
+- Backpack streaming setup. (LXC enabled for video relay setup)
 
-**Note: If you need to combine multiple stable internet connections above 100Mbit, consider a load balancer such as the GL.iNet Slate/Flint 4.2.0 official firmware which includes Wi-Fi and easier to setup compared to the TP-Link Multi-WAN series.**
+**A note for those looking for high speeds: If you need to combine multiple *stable & reliable* internet connections above 100Mbit, use a *load balancer*.**
 
-*Additional features*
+**Tip: Both Synology routers and GL.iNet Slate/Flint (with 4.2.0 firmware) include Wi-Fi and are much easier to setup compared to the TP-Link Multi-WAN series / pfSense...**
 
-- [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) pre-installed and pre-configured (one-click enable) with password change UI addition
-- Dnsmasq DHCP is disabled and replaced with AdGuard Home DHCP. [(revert)](https://smoothwan.com/adg/#due-to-popular-request-and-leak-proof-dns-adgh-is-the-default-dhcp-server)
-- Custom Speedify version selection, GUI for built-in custom bypass, and tuning.
-- Preset network configuration for various hardware
-- VPN PBR pre-configured
-- [Tailscale](https://tailscale.com/) installer and pre-configuration
-- [ntopng](https://www.ntop.org/products/traffic-analysis/ntop/) (deep-packet-inspection analysis) installer
-- One-click cloud-init script for setting up Engarde & TinyFEC VPN in cloud
-- [BitTorrent detection log](/tips/#identifying-client-using-p2p-or-bittorrent) showing client IP address as the source
-- Per-client (LAN) bandwidth limiter (EQoS)
+***
+## [More Features](/features) (link)
+***
 
 *Typical setup*  
 <img src="https://raw.githubusercontent.com/TalalMash/SmoothWAN-web/main/smoothwan-illust.drawio.svg" width="600"/>
@@ -46,7 +42,7 @@ Also includes [Engarde]() and [TinyFEC VPN]() as alternatives and self-hosting s
 
  ***
 *Wiki under construction 👷*
-###On Speedify being primary
+###Project motives
  
 As of (2023), I could not find an affordable mixed usage multi-mode bonding software and a service that is cost effective nor a reliable OSS solution.  
 
