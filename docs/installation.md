@@ -4,11 +4,11 @@
   
 - Download and follow the instructions from the [release](https://github.com/TalalMash/SmoothWAN/releases) page. <br>
 - Connect your hardware in a similiar way to this example: <br>
-![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/1slate.svg)
-![](assets/flintports.png)
+![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/1slate.svg){: style="height:150px;width:150px"}
+![](assets/flintports.png){: style="height:150px;width:150px"}
 - The Slate or Flint is now broadcasting as a Wi-Fi access point for easy configuration, connect your phone to Wi-Fi `SmoothWAN Setup 2.4 or 5Ghz` with password: `brassworld`: <br>
 - In your browser, visit: http://172.17.17.2 there is no password set: <br>
-![](assets/setup/1.webp)
+![](assets/setup/1.webp){: style="height:150px;width:150px"}
 ![](assets/setup/2.webp)
 - You will be greeted with brief instructions in the UI, if you need to connect to a Wi-Fi network to bond and use (WWAN), you can do up to 2 with 5G and 2.4G, skip the following steps if all your internet sources to be used (WAN) by Speedify are wired, head to `Simple Wi-Fi Setup`: 
 ![](assets/setup/3.webp)
