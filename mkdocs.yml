@@ -8,6 +8,7 @@ theme:
     - navigation.instant
   icon:
     repo: fontawesome/brands/github-alt
+  favicon: assets/logo.png
 
 plugins:
   - search
