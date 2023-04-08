@@ -3,8 +3,8 @@
 1. Make sure your client is set to static by visiting _Network -> DHCP and DNS -> Static Leases_ then click _Add_ (assuming the IP in this example is 172.17.17.128)
 2. Head over to _VPN -> VPN Policy Routing_ or *Services* -> *Policy Routing* 
 3. Click _Enable_ and _Start_
-4. In Policies add your client IP in the `Local Addresses / devices` field and add your LAN subnet in the `Remote addresses / domains`, and choose your WAN.
-5. You can also use MAC addresses, easier to manage IPv6.
+4. In Policies add your client IP `172.17.17.128` in the `Local Addresses / devices` field and add your LAN subnet with exclamation mark `!172.17.17.0/24` in the `Remote addresses / domains`, and choose your WAN.
+5. Alternatively, you can use MAC addresses, and it's easier to manage IPv6.
 6. Click *Save & Apply*, reconnect Speedify to clear P2P detection (toggle power switch), and reconnect your client to obtain the static IP.
 
 ### Split-tunneling for leak-proof bypass
