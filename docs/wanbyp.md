@@ -20,6 +20,12 @@ Follow these steps to bypass a static IP client to a specific WAN:
 1. Head to *Network* -> *Interfaces* -> *Edit* button next to the WAN to be used.
 2. *Advanced Settings* -> *Override IPv4 routing table*, select one of the `BYP` tables, there are 10 presets. When split-tunneling other WANs do not use the same table.
 3. *Save* then head to *Network* -> *Routing* -> *IPv4 Rules* -> *Add*
-4. Set *Incoming interface* to `lan` and *source* to your client IP address.
+4. Set *Incoming interface* to `lan` and *source* to your client IP address. e.g `172.17.17.100/32`
 5. Select the `BYP` you chose earlier in *Table* and click *Save and Apply*.
 6. Done! For IPv6 users, ULA is disabled, link-local is mostly persistent you add the same rule in *IPv6 Rules* tab.
+
+### Bypass a range of IP addresses
+
+Use CIDR calculators such as https://www.ipaddressguide.com/cidr  
+Examples: using `172.17.17.32/27` will bypass clients with IP addresses between `172.17.17.32` and `172.17.17.63`  
+`/32` CIDR such as in the previous examples equals to one IP address.
