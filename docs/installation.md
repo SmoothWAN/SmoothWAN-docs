@@ -3,7 +3,7 @@
 <b>Note:</b> Slate AX or Flint is recommended for ease of use due to built in stable Wi-Fi adapters, no extra hardware is needed.<br>
   
 - Download and follow the instructions from the [release](https://github.com/TalalMash/SmoothWAN/releases) page. <br>
-- Connect your hardware in a similiar way to this example: <br>
+- Connect your hardware in a similar way to this example: <br>
 
 ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/1slate.svg){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/flintports.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
@@ -42,7 +42,7 @@ You can change your password in the administration page.
 ***
 **Note**
 
-Few devices are problematic with SmoothWAN built-in interface renamer (the unique name shown in the example as `USB_1f16`), you can disable this option in Speedify configuration page menu -> Options. The adapter naming will be named by the order of first detection e.g `usb0`, `usb1` etc which can be random on every power up. 
+Few devices are problematic with SmoothWAN built-in interface renamer (the unique name shown in the example as `USB_1f16`), you can disable this option in Speedify configuration page menu -> Options. The adapter naming will be named by the order of first detection e.g `usb0`, `usb1` which can be random on every power up. 
 For data cap limit users, Speedify won't be able to tell which WAN to limit persistently in this mode.
 
 ![](assets/setup/13.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
