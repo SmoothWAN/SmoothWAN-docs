@@ -3,8 +3,11 @@
 1. Setup your VPN as you would in any OpenWrt router, many VPN providers provide instructions for OpenWrt.
 
 ??? note "WireGuard VPN example"
+
 "A screenshot is worth a thousand words".
+
 Cloudflare WARP VPN example:
+
 ![](assets/vpn/1.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/vpn/2.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/vpn/3.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
@@ -12,6 +15,7 @@ Cloudflare WARP VPN example:
 
 
 ??? note "OpenVPN example"
+
     - TODO
 
 2. Edit your VPN configuration in *Network* -> *Interface* -> *Edit* next to the VPN interface and select one of the `BYP` tables in *Advanced Settings* tab -> *Override IPv4 routing table* (as well as IPv6 if used), there are 10 presets. 
