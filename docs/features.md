@@ -1,6 +1,7 @@
 [-> Upcoming features <-](https://github.com/TalalMash/SmoothWAN/projects/1)  
   
 - Preset network configuration for various hardware
+- Use [your own VPN](https://smoothwan.com/vpn/) on top of Speedify/Engarde/TinyFEC.
 - Unique interface name for USB network devices per port
 - Data caps and statistics in Speedify/PBR/others are persistent due to the previously mentioned features
 - Speedify installer, auto-update and version selection
