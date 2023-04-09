@@ -4,14 +4,14 @@
 
 ??? note "WireGuard VPN example"
 
-"A screenshot is worth a thousand words".
+    "A screenshot is worth a thousand words".
 
-Cloudflare WARP VPN example:
+    Cloudflare WARP VPN example:
 
-![](assets/vpn/1.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
-![](assets/vpn/2.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
-![](assets/vpn/3.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
-![](assets/vpn/4.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    ![](assets/vpn/1.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    ![](assets/vpn/2.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    ![](assets/vpn/3.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    ![](assets/vpn/4.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
 
 ??? note "OpenVPN example"
