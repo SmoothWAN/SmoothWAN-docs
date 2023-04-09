@@ -1,6 +1,6 @@
 ## Tunneling all clients to a VPN over Speedify/Engarde/TinyFEC
 
-1. Setup your VPN as you would in any OpenWrt router, many VPN providers provide instructions for OpenWrt.
+Setup your VPN as you would in any OpenWrt router, many VPN providers provide instructions for OpenWrt.
 
 ??? note "WireGuard VPN example"
 
