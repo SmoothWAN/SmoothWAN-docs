@@ -13,6 +13,8 @@ Follow these steps to bypass a static IP client to a specific WAN:
 5. Select the `BYP` you chose earlier in *Table* and click *Save and Apply*.
 6. Done! For IPv6 users, ULA is disabled, link-local is mostly persistent, you can add the same rule in *IPv6 Rules* tab.
 
+Never share the same routing table number `BYP` with other WANs/VPNs.
+
 ### Bypass a range of IP addresses
 
 Use CIDR calculators such as https://www.ipaddressguide.com/cidr  
