@@ -1,6 +1,5 @@
 ### Ports layout
-<img src="https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/1slate.svg"/>
-
+![](assets/slateports.webp)
 ### Troubleshooting
 
 ## Slate AX Wi-Fi scan results empty (Only in version 0.99.8)
