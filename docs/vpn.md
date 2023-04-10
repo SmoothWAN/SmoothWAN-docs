@@ -24,6 +24,7 @@ Setup your VPN as you would in any OpenWrt router, many VPN providers provide in
 5. Add a static route by going to *Network* -> *Routing* -> *Static IPv4 Routes* -> *Add* button.
 6. Choose `lan` in *Interface* and enter your LAN IP range in *Target*, by default it is `172.17.17.0/24` and select the `BYP` table you chose earlier in *Advanced Settings* tab.
 7. *Save and Apply*, confirm that your IP address has changed from the bypassed clients.
+8. Done! For IPv6 users, use the same method only if the downstream provides /56 or less prefix. NAT6 option will be provided in future releases.
 
 To tunnel specific clients/IP addresses to the VPN, treat the VPN interface as a WAN, and follow the steps in ![Bypass clients to a specific WAN](wanbyp.md) instead of this guide.
 
