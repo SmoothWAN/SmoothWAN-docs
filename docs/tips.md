@@ -1,6 +1,3 @@
-### Wiregurad over Speedify
-
-See discussion [#79](https://github.com/TalalMash/SmoothWAN/discussions/79#discussioncomment-4131043).
 
 ### Identifying client using P2P or BitTorrent
 
