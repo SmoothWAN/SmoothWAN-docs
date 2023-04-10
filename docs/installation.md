@@ -5,7 +5,7 @@
 - Download and follow the instructions from the [release](https://github.com/TalalMash/SmoothWAN/releases) page. <br>
 - Connect your hardware in a similar way to this example: <br>
 
-![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/1slate.svg){: style="max-height:700px;border:6px solid #d2ccf1;"}
+![](assets/slateports.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/flintports.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
 - The Slate or Flint is now broadcasting as a Wi-Fi access point for easy configuration, disable mobile data and connect your phone to Wi-Fi `SmoothWAN Setup 2.4 or 5Ghz` with password: `brassworld`. <br>
