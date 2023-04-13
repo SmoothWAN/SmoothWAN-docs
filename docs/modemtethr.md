@@ -1,7 +1,8 @@
 ## USB Modems
 
 Modems using RNDIS or "virtual Ethernet adapter" are supported. 
-Popular device:
+
+Suggested models:
 
 - Huawei's Wingle series
 - All Huawei model variants updated year 2015+ (TODO: add more info) use RNDIS by default.
