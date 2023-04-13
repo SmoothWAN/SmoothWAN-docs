@@ -1,5 +1,14 @@
-##Quirky modem notes
-###Work in progress, collecting reports.
+## USB Modems
+
+Modems using RNDIS or "virtual Ethernet adapter" are supported. 
+Popular device:
+
+- Huawei's Wingle series
+- All Huawei model variants updated year 2015+ (TODO: add more info) use RNDIS by default.
+
+
+MBIM, QMI, and others aren't automatically configured yet, be sure to disable USB interface namer in Speedify setup page before manually configuring a modem interface.
+
 
 ***
 
