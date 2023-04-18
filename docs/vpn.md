@@ -1,4 +1,5 @@
 ## Tunneling all clients to a VPN over Speedify/Engarde/TinyFEC
+**Experimental**
 
 Setup your VPN as you would in any OpenWrt router, many VPN providers provide instructions for OpenWrt.
 
@@ -13,6 +14,15 @@ Setup your VPN as you would in any OpenWrt router, many VPN providers provide in
     ![](assets/vpn/3.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
     ![](assets/vpn/4.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
+??? note "WireGuard extra steps for v0.99.9"
+    There is currently an issue with OpenWrt `netifd` allowing WireGuard to bypass Speedify and bind to the first WAN up & not following the routing tables...
+
+    The current workaround is to use firewall markings.
+
+    1. Add a firewall marking by going to *Network* -> *Firewall* -> *Traffic Rules* -> *Add*
+    2. ![](assets/vpn/1e.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    3. Add an IP rule by going to *Network* -> *Routing* -> *IPv4 Rules* -> *Add*.
+    4. Choose `main` table & in *Advanced Settings* tab, enter `0x100` in *Firewall mark*.
 
 ??? note "OpenVPN example"
 
