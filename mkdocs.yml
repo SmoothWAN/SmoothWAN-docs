@@ -31,8 +31,6 @@ nav:
   - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
   - Quick Setup: 'installation.md'
   - Discussions: "https://smoothwan.discourse.group"
-  - Engarde: 'engarde.md'
-  - TinyFEC: 'tinyfec.md'
   - Tips & Troubleshooting: 'tips.md' 
   - 'Additional Configurations':
     - 'Tailscale' : 'tail.md'
@@ -49,6 +47,9 @@ nav:
     - 'Raspberry Pi 4': 'rpi4.md'
     - 'Tested Hardware': 'tsthw.md'
     - 'Wi-Fi, modems, and tethering devices': 'modemtethr.md'
+  - Self-host Single Function:
+    - Engarde: 'engarde.md'
+    - TinyFEC: 'tinyfec.md'
   - Development Notes: 'devl.md'
   - FAQ: 'faq.md'
   - Contact: 'contact.md'
