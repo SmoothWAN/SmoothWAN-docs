@@ -14,12 +14,12 @@
 ![](assets/setup/1.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/setup/2.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-- You will be greeted with brief instructions in the UI, if you need to connect to a Wi-Fi network to bond and use (WWAN), you can do up to 2 with 5G and 2.4G, skip the following steps if all your internet sources to be used (WAN) by Speedify are wired, head to `Simple Wi-Fi Setup`: 
+- Skip the following steps if all your internet sources to be used by Speedify are wired, else head to `Simple Wi-Fi Setup`: 
 
 ![](assets/setup/3.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/setup/4.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-**You can also change your access point SSID/Password here!**
+**You can change your access point SSID/Password as well**
 
 ![](assets/setup/5.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
@@ -28,7 +28,7 @@
 ![](assets/setup/6.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/setup/7.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-**With all your WANs now configured, install Speedify:**
+**With all your WANs now connected, install Speedify:**
 
 ![](assets/setup/9.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/setup/10.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
@@ -36,13 +36,13 @@
 
 **All done!**
 
-You can change your password in the administration page.
+You can change your web login password in the administration page.
 ![](assets/setup/12.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
 ***
-**Note**
+**Notes**
 
-Few devices are problematic with SmoothWAN built-in interface renamer (the unique name shown in the example as `USB_1f16`), you can disable this option in Speedify configuration page menu -> Options. The adapter naming will be named by the order of first detection e.g `usb0`, `usb1` which can be random on every power up. 
-For data cap limit users, Speedify won't be able to tell which WAN to limit persistently in this mode.
+- Some USB devices are problematic with SmoothWAN built-in USB network adapter renamer (the unique name shown in the example as `USB_1f16`), you can disable this option in Speedify navigation menu -> Options. The adapter naming will be named by the order of first detection e.g `usb0`, `usb1` which can be random on every power up. 
+For data limited users, Speedify won't be able to tell which USB connected adapter corresponds to the set data limits and statistcs.
 
 ![](assets/setup/13.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
