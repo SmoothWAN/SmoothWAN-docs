@@ -3,7 +3,7 @@
 <b>Note:</b> Slate AX or Flint is recommended for ease of use due to built in stable Wi-Fi adapters, no extra hardware is needed.<br>
   
 - Download and follow the instructions from the [release](https://github.com/TalalMash/SmoothWAN/releases) page. <br>
-- Connect your hardware in a similar way to this example: <br>
+- Connect your wired internet connections (if available): <br>
 
 ![](assets/slateports.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/flintports.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
