@@ -28,7 +28,7 @@ Also includes [Engarde](https://github.com/porech/engarde) and [TinyFEC VPN](htt
 
 **A note for those looking for high speeds: If you need to combine multiple *stable & reliable* internet connections above 100Mbit, use a *load balancer*.**
 
-**Tip: Both Synology routers and GL.iNet Slate/Flint (with 4.2.0 firmware) include Wi-Fi and are much easier to setup compared to the TP-Link Multi-WAN series / pfSense...**
+**Tip: Synology routers and GL.iNet Slate/Flint (with 4.2.0 firmware) and few others include Wi-Fi and are much easier to setup compared to the TP-Link Multi-WAN series / pfSense or other enterprise solution...**
 
 ***
 ## [More Features](/features) (link)
@@ -45,7 +45,7 @@ Also includes [Engarde](https://github.com/porech/engarde) and [TinyFEC VPN](htt
 *Wiki under construction 👷*
 ###Project motives
  
-As of (2023), I could not find an affordable mixed usage multi-mode bonding software and a service that is cost effective nor a reliable OSS solution.  
+I couldn't find an affordable mixed usage multi-mode bonding router that is cost effective nor a reliable OSS solution.  
 
 ??? note "More details about Speedify - Wishlist for other solutions"
  
