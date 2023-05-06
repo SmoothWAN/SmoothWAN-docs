@@ -44,6 +44,7 @@ nav:
   - 'Device Specific Documents':
     - 'Flint' : 'flint.md'
     - 'Slate AX': 'slate.md'
+    - 'NanoPi R6S': `npir6s.md' 
     - 'Raspberry Pi 4': 'rpi4.md'
     - 'Tested Hardware': 'tsthw.md'
     - 'Wi-Fi, modems, and tethering devices': 'modemtethr.md'
