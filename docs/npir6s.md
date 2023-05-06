@@ -1,2 +1,2 @@
-### Ports layout
+### Port Layout
 ![](assets/npir6sports.webp)

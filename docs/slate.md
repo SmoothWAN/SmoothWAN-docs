@@ -1,5 +1,6 @@
-### Ports layout
+### Port Layout
 ![](assets/slateports.webp)
+
 ### Troubleshooting
 
 ## Slate AX Wi-Fi scan results empty (Only in version 0.99.8)
