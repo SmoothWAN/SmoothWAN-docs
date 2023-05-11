@@ -9,26 +9,27 @@ This project is not affiliated with Speedify or Connectify.<br>
 Also includes [Engarde](https://github.com/porech/engarde) and [TinyFEC VPN](https://github.com/wangyu-/tinyfecVPN) as alternatives and self-hosting solutions.<br>
 
 *Supported hardware*
+(order by performance)
 
 - PC Intel/AMD
+- NanoPi R6S (WIP)
+- Banana Pi R3 (untested)
+- Raspberry Pi 4 / Pi 400
+- Banana Pi R64 (untested)
 - GL.iNet Flint
 - GL.iNet Slate AX
-- Raspberry Pi 4 / Pi 400
-- Banana Pi R64/R3 (need tester)
 
 *Use cases*  
 
 - Use [Speedify](https://speedify.com/) to build a reliable internet access with seamless failover, lossless and aggregated single-flow speeds by bonding two or more connections, preferably a combination of wired and wireless with baseline ISP plans as an affordable solution. e.g rural areas, developing countries...
 - Run a VPN over Speedify to bypass captcha/IP-blocking on public servers or other uses.
 - Cover all connected devices in a home network when it's not possible or practical to share a WAN per each device running Speedify.  
-- Use [Engarde](/engarde) as an self-hosting alternative to Speedify's Redundant mode (lossless by duplicating traffic across WANs - no aggregation)
-- Use [TinyFEC VPN](/tinyfec) for fixing a lossy unusable internet connection using forward-error-correction at a speed cost (single WAN - self-hosting)
+- Use [Engarde](https://github.com/porech/engarde) as self-hosting alternative to Speedify's Redundant mode (lossless by duplicating traffic across WANs - no aggregation)
+- Use [TinyFEC VPN](https://github.com/wangyu-/tinyfecVPN) for fixing a lossy unusable internet connection using forward-error-correction at a speed cost (single WAN - self-hosting)
 - Significantly lower budget alternative to commonly used solutions (Speedify)
 - Backpack streaming setup. (LXC enabled for video relay setup)
 
-**A note for those looking for high speeds: If you need to combine multiple *stable & reliable* internet connections above 100Mbit, use a *load balancer*.**
-
-**Tip: Synology routers and GL.iNet Slate/Flint (with 4.2.0 firmware) and few others include Wi-Fi and are much easier to setup compared to the TP-Link Multi-WAN series / pfSense or other enterprise solution...**
+**A note for those looking for high speed downloads: If you need to combine multiple *stable & reliable* internet connections above 100Mbit, use a *load balancer* instead of *bonding* unless you have specific needs.**
 
 ***
 ## [More Features](/features) (link)
