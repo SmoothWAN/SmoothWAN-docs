@@ -34,7 +34,7 @@ All done! Check your IP address at ping.eu,speedtest.net,etc... to check if it's
 <hr>
 <h3>Notes:</h3>
 
-- The server is setup to forward all ports to your SmoothWAN appliance/router.
+- The server is setup to forward ports from 1024 to 65000 to your SmoothWAN appliance/router, adjust as needed.<br>
 - Modern implementation UPnP is automatically configured and enabled for automatic port forwarding.
 - You can also forward ports in VPN -> VPN Port Forwarding.
 - Changing password is done by simply changing the cloud-init field and doing a server reinstall.
