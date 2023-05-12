@@ -29,12 +29,11 @@ _**Quick build hints**_
 ??? note "NanoPi R6S"
     - Replace ~/build with a directory of your choice (builds outside docker)
     - `docker run --name ubuntu18 --privileged -it -v ~/build:/work ubuntu:18.04 bash`
-    - Note: to resume after exit do:
+    - Note! to resume after exit do:
     - `docker start ubuntu18`
     - `docker exec -it ubuntu18 bash`
     - Continue:
-    - `apt update && apt install git python build-essential clang flex bison g++ gawk gcc-multilib g++-multilib \
-    - gettext git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev file wget`
+    - `apt update && apt install git python build-essential clang flex bison g++ gawk gcc-multilib g++-multilib gettext git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev file wget`
     - `cd /work && mkdir friendlywrt21-rk3588`
     - `git clone https://github.com/friendlyarm/repo --depth 1 tools`
     - `git config --global user.email "anon@anon.com"`
@@ -52,7 +51,7 @@ _**Quick build hints**_
     - `./build.sh uboot && ./build.sh kernel`
     - Create the image, use emmc-img for flashable EMMC.
     - `cd .. && ./build.sh sd-img` 
-    - Image found in `out` folder, you can use your file browser to access the folder assigned in the first step.
+    - Compiled image is in `out` folder, you can use your file browser to access the folder assigned in the first step.
 
 **Notes:**  
   
@@ -65,5 +64,5 @@ Binaries are sideloaded during build. Check `sideload-glibc.sh` for sources.
     - Engarde : <https://github.com/SmoothWAN/engarde>
     - TinyFEC : <https://github.com/SmoothWAN/tinyfecVPN>
     - ntopng : <https://github.com/SmoothWAN/SmoothWAN-chroot-imagebuilder>
-- GH Actions builds TBD
+- SmoothWAN images GH Actions builds TBD
 
