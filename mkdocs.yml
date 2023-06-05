@@ -39,6 +39,7 @@ nav:
     - 'Change WAN port to LAN' : 'lan.md'
     - 'Bypass clients to a specific WAN' : 'wanbyp.md'
   - 'Advanced Configurations':
+    - 'Proxmox Example' : 'proxmox.md'
     - 'Cheap unmanaged switch Multi-WAN using MACVLAN' : 'macvlan.md'
     - 'Equal bandwidth distribution to connected clients' : 'hostqos.md'
   - 'Device Specific Documents':
