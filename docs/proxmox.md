@@ -77,7 +77,7 @@ Application: Running SmoothWAN alongside Ubuntu/Windows or containers.
 
 ![](assets/proxmox/40.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-- Hint: to use 2 or more LAN ports (e.g. 2 WANs, 2 LANs in this example), remove the desired port from the bridge ( `vmbr1` not removed in screenshots for clarity), and append it to the first bridge, SmoothWAN uses the first (`vmbr1`) as LAN:
+- Hint: to use 2 or more LAN ports (e.g. 2 WANs, 2 LANs in this example), remove the desired interface from the bridge ( `vmbr1` not removed in screenshots for clarity), and append interface to the first bridge, SmoothWAN uses the first (`vmbr0`) as LAN:
 
 ![](assets/proxmox/41.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 ![](assets/proxmox/42.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
