@@ -12,14 +12,14 @@ SmoothWAN is an open-source initiative driven by the need for an affordable and 
 ### Key Features
 
 - **Hardware Compatibility:** SmoothWAN supports a range of hardware options, ordered by speed:
-  - PC Intel/AMD
-  - NanoPi R6S (Work in Progress)
-  - NanoPi R5S (Work in Progress)
-  - Banana Pi R3 (Untested)
-  - Raspberry Pi 4 / Pi 400
-  - Banana Pi R64 (Untested)
-  - GL.iNet Flint
-  - GL.iNet Slate AX
+  * PC Intel/AMD
+  * NanoPi R6S (Work in Progress)
+  * NanoPi R5S (Work in Progress)
+  * Banana Pi R3 (Untested)
+  * Raspberry Pi 4 / Pi 400
+  * Banana Pi R64 (Untested)
+  * GL.iNet Flint
+  * GL.iNet Slate AX
 
 - **Internet Bonding:** SmoothWAN utilizes Speedify's technology to bond two or more internet connections, providing a reliable and high-performance internet access solution. This allows for seamless failover, lossless and aggregated single-flow speeds, and an affordable alternative for areas with limited internet infrastructure.
 
@@ -88,3 +88,7 @@ SmoothWAN's project motives revolve around bridging the gap in open-source solut
 
 
 The page was re-written by **ChatGPT** ![](https://cdn.cdnlogo.com/logos/c/38/ChatGPT.svg){: style="max-height:20px;"}
+
+---
+
+Speedify is a registered trademark of Connectify Inc. Learn more about Speedify [here](https://speedify.com)
