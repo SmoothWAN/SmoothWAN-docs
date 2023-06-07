@@ -7,19 +7,19 @@ Welcome to SmoothWAN, a small project that aims to provide a reliable and effici
 
 ## Project Overview
 
-SmoothWAN is an open-source initiative driven by the need for an affordable and feature-rich internet bonding router. Our project aims to address the limitations of existing open-source solutions by incorporating the commercial technology of Speedify. This choice is made based on the lack of affordable and comprehensive open-source alternatives and the desire to provide an accessible solution to a broader audience.
+SmoothWAN is an open-source initiative driven by the need for an affordable and feature-rich internet bonding router. Our project aims to address the limitations of existing open-source solutions by incorporating the commercial technology of Speedify. This choice is made based on the lack of affordable consumer-based alternatives and the desire to provide an accessible solution to a broader audience.
 
 ### Key Features
 
 - **Hardware Compatibility:** SmoothWAN supports a range of hardware options, ordered by speed:
-  * PC Intel/AMD
-  * NanoPi R6S (Work in Progress)
-  * NanoPi R5S (Work in Progress)
-  * Banana Pi R3 (Untested)
-  * Raspberry Pi 4 / Pi 400
-  * Banana Pi R64 (Untested)
-  * GL.iNet Flint
-  * GL.iNet Slate AX
+    * PC Intel/AMD
+    * NanoPi R6S (Work in Progress)
+    * NanoPi R5S (Work in Progress)
+    * Banana Pi R3 (Untested)
+    * Raspberry Pi 4 / Pi 400
+    * Banana Pi R64 (Untested)
+    * GL.iNet Flint
+    * GL.iNet Slate AX
 
 - **Internet Bonding:** SmoothWAN utilizes Speedify's technology to bond two or more internet connections, providing a reliable and high-performance internet access solution. This allows for seamless failover, lossless and aggregated single-flow speeds, and an affordable alternative for areas with limited internet infrastructure.
 
@@ -33,7 +33,7 @@ SmoothWAN is an open-source initiative driven by the need for an affordable and 
 
 ## Project Motives
 
-SmoothWAN's decision to utilize Speedify's commercial solution is motivated by the lack of affordable mixed-usage multi-mode bonding routers that are cost-effective and reliable within the open-source domain. By incorporating Speedify's technology, SmoothWAN aims to bridge this gap and provide a comprehensive internet bonding solution accessible to a wider range of users.
+SmoothWAN's decision to utilize Speedify's commercial solution is motivated by the lack of affordable mixed-usage multi-mode bonding routers that are cost-effective and reliable. By incorporating Speedify's technology, SmoothWAN aims to bridge this gap and provide a comprehensive internet bonding solution accessible to a wider range of users.
 
 It is important to note that the inclusion of a commercial solution does not imply an endorsement or partnership with Speedify or Connectify. SmoothWAN remains an independent open-source project developed by a dedicated community. The selection of Speedify technology is based on its unique features, performance, and ability to address the specific requirements of internet bonding.
 
@@ -63,7 +63,7 @@ It is important to note that the inclusion of a commercial solution does not imp
 
     By combining these unique features, Speedify offers a comprehensive and versatile internet bonding solution, making it a popular choice for users seeking reliable, high-performance connections with seamless failover capabilities.
 
-??? note "Load Balancer vs. Bonding"
+??? note "Load Balancer vs. Speedify"
 
     When using a load balancer in a home network, parallel socket performance can be enhanced by distributing the traffic evenly across the available connections. This allows for better utilization of the combined bandwidth and improved download speeds for parallel socket-enabled applications such as downloaders or browsers.
 
