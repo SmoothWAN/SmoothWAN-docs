@@ -37,7 +37,7 @@ SmoothWAN's decision to utilize Speedify's commercial solution is motivated by t
 
 It is important to note that the inclusion of a commercial solution does not imply an endorsement or partnership with Speedify or Connectify. SmoothWAN remains an independent open-source project developed by a dedicated community. The selection of Speedify technology is based on its unique features, performance, and ability to address the specific requirements of internet bonding.
 
-??? note "Project Motives: Commercial Solution Choice and distinguishing features"
+??? note "Speedify distinguishing features"
 
     **Note**: These are my own findings and they may not be accurate.
 
@@ -55,7 +55,7 @@ It is important to note that the inclusion of a commercial solution does not imp
 
     - TCP Multiple Protocol: The TCP Multiple transport protocol, also known as parallel transfer sockets, is a unique feature of Speedify. It maximizes speed and performance, particularly in scenarios involving high-latency, lossy, geographically distant VPN servers.
 
-    - Adaptive Aggregation and Speed Boost Options: Speedify incorporates intelligent packet aggregation techniques that adapt to asymmetric and heterogeneous WAN bonding scenarios. It allows for quick adaptation on long periods, accommodating cellular and wireless connections with variable speeds. Additionally, Speedify offers options for utilizing WANs solely for speed boosts or as backup connections, providing users with greater control and flexibility.
+    - Adaptive Aggregation and Delayed Speed Boost Options: Speedify incorporates intelligent packet aggregation techniques that adapt to asymmetric and heterogeneous WAN bonding scenarios. It allows for quick adaptation on long periods, accommodating cellular and wireless connections with variable speeds. Additionally, Speedify offers options for utilizing WANs solely for speed boosts or as backup connections, providing users with greater control and flexibility.
 
     - Seamless Configuration Changes: Speedify allows users to switch critical settings such as protocols, modes, and WAN connections without disruption or requiring a system restart. This flexibility simplifies configuration management and enables users to fine-tune their bonding setup according to their specific requirements.
     
@@ -67,19 +67,19 @@ It is important to note that the inclusion of a commercial solution does not imp
 
     When using a load balancer in a home network, parallel socket performance can be enhanced by distributing the traffic evenly across the available connections. This allows for better utilization of the combined bandwidth and improved download speeds for parallel socket-enabled applications such as downloaders or browsers.
 
-    In the context of failover, network load balancers often employ health checks to monitor the availability and responsiveness of the servers or network resources. If a server or resource becomes unavailable or unresponsive, the load balancer detects this and redirects the incoming traffic to other available servers or resources.
+    In the context of failover, network load balancers often employ health checks to monitor the availability and responsiveness of the gateways. If a gateway or an internet connection becomes unavailable or unresponsive, the load balancer detects this and redirects the incoming traffic to other available gateway or an internet connection.
 
     However, the failover process in network load balancers may not be as seamless and quick as in Speedify. There may be a slight delay or interruption during the failover process, resulting in a temporary loss of connectivity or disrupted network sessions. This is because load balancers typically operate at the network layer and redirect traffic based on protocols and IP addresses.
 
     Load balancers typically require manual tuning and configuration of quality monitoring parameters to achieve desired results. This process may involve fine-tuning thresholds, adjusting timeout values, and setting up health checks to ensure accurate detection of connection issues.
     
-    Load balancers distribute network traffic across multiple servers, but having multiple IP addresses can cause issues. One problem is that requests from the same user can be sent to different servers, disrupting session data. Another issue is that stateful protocols like TCP may not work properly if the client's requests are routed to different servers. To solve these problems, load balancers use "sticky sessions" to ensure requests from the same client go to the same server. Sticky sessions maintain a mapping between the client's IP address and the assigned server, preserving session data and ensuring consistent connections. However, sticky sessions can also have drawbacks like uneven traffic distribution, so their use should be carefully considered.
+    Load balancers distribute network traffic across multiple gateways, but having multiple IP addresses can cause issues. One problem is that requests from the same user can be sent to different servers, disrupting session data. Another issue is that stateful protocols like TCP may not work properly if the client's requests are routed to different servers. To solve these problems, load balancers use "sticky sessions" to ensure requests from the same client go to the same server. Sticky sessions maintain a mapping between the client's IP address and the assigned server, preserving session data and ensuring consistent connections. However, sticky sessions can also have drawbacks like uneven traffic distribution, so their use should be carefully considered.
 
     In contrast, Speedify offers a different approach by utilizing bonding technology to aggregate the bandwidth of multiple connections into a single, high-performance virtual connection. Speedify is designed to improve both single socket and parallel socket applications by providing seamless failover, dynamic adaptation, and application-aware conditioning.
 
     Therefore, when considering the difference between a home load balancer and Speedify, it is important to evaluate your specific requirements. If you primarily need load distribution, failover capabilities, and improved parallel socket performance, a load balancer may be a suitable choice. On the other hand, if you are looking for seamless failover, single socket performance improvement, and application-aware optimization, Speedify can be a valuable solution.
 
-    If you have a stable and high-speed connection and the applications you use support parallel socket connections, leveraging single socket aggregation can maximize your internet speed and performance without the need for bonding multiple connections.
+    If you have a stable and high-speed connection and the applications you use support parallel socket connections, leveraging a load balancer can maximize your internet speed and performance without the need for bonding multiple connections.
 
     Additionally, when the available internet speed is already high enough that single socket performance is decent and stable, the use of Speedify or bonding may not be necessary.
 
