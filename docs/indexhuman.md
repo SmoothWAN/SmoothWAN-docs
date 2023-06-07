@@ -1,7 +1,5 @@
 <h1>Welcome</h1>
 
-**[Donate to Parrot Rescue Lebanon 🦜](https://gofund.me/63163a6c)**  
-
 <img src="https://user-images.githubusercontent.com/96490382/185179903-4cbac04d-d0f7-47e2-b81a-167803205d33.png" width="800"/>
 <h2>Internet bonding router with seamless failover using Speedify</h2>  
 <i>SmoothWAN</i> is a custom [OpenWRT](https://openwrt.org/) router distribution for fixed internet bonding setup using Speedify, with an emphasis on using an internet browser for easy configuration. <br>  
