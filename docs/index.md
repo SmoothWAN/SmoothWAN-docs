@@ -31,7 +31,7 @@ SmoothWAN is an open-source initiative driven by the need for an affordable and 
 <img src="https://user-images.githubusercontent.com/96490382/208723215-92bb40df-c56d-4f82-b597-707aa8e35f7b.gif" width="800"/>
 
 
-## Project Motives: Commercial Solution Choice and Project Explanation
+## Project Motives
 
 SmoothWAN's decision to utilize Speedify's commercial solution is motivated by the lack of affordable mixed-usage multi-mode bonding routers that are cost-effective and reliable within the open-source domain. By incorporating Speedify's technology, SmoothWAN aims to bridge this gap and provide a comprehensive internet bonding solution accessible to a wider range of users.
 
@@ -39,7 +39,7 @@ It is important to note that the inclusion of a commercial solution does not imp
 
 ??? note "Project Motives: Commercial Solution Choice and distinguishing features"
 
-    **Note**: These are my own findings and they not be accurate.
+    **Note**: These are my own findings and they may not be accurate.
 
     - Optimization for Various Applications: Speedify goes beyond livestreaming services and provides optimization for a wide range of applications, including SSH and games. This ensures a smooth and enhanced experience across different types of internet activities.
 
@@ -67,8 +67,11 @@ It is important to note that the inclusion of a commercial solution does not imp
 
     When using a load balancer in a home network, parallel socket performance can be enhanced by distributing the traffic evenly across the available connections. This allows for better utilization of the combined bandwidth and improved download speeds for parallel socket-enabled applications such as downloaders or browsers.
 
-    Load balancers typically require manual tuning and configuration of quality monitoring parameters to achieve desired results. This process may involve fine-tuning thresholds, adjusting timeout values, and setting up health checks to ensure accurate detection of connection issues.
+    In the context of failover, network load balancers often employ health checks to monitor the availability and responsiveness of the servers or network resources. If a server or resource becomes unavailable or unresponsive, the load balancer detects this and redirects the incoming traffic to other available servers or resources.
 
+    However, the failover process in network load balancers may not be as seamless and quick as in Speedify. There may be a slight delay or interruption during the failover process, resulting in a temporary loss of connectivity or disrupted network sessions. This is because load balancers typically operate at the network layer and redirect traffic based on protocols and IP addresses.
+
+    Load balancers typically require manual tuning and configuration of quality monitoring parameters to achieve desired results. This process may involve fine-tuning thresholds, adjusting timeout values, and setting up health checks to ensure accurate detection of connection issues.
     
     Load balancers distribute network traffic across multiple servers, but having multiple IP addresses can cause issues. One problem is that requests from the same user can be sent to different servers, disrupting session data. Another issue is that stateful protocols like TCP may not work properly if the client's requests are routed to different servers. To solve these problems, load balancers use "sticky sessions" to ensure requests from the same client go to the same server. Sticky sessions maintain a mapping between the client's IP address and the assigned server, preserving session data and ensuring consistent connections. However, sticky sessions can also have drawbacks like uneven traffic distribution, so their use should be carefully considered.
 
@@ -78,7 +81,7 @@ It is important to note that the inclusion of a commercial solution does not imp
 
     If you have a stable and high-speed connection and the applications you use support parallel socket connections, leveraging single socket aggregation can maximize your internet speed and performance without the need for bonding multiple connections.
 
-It's worth noting that load balancers may have limitations in terms of failover speed and the need for manual configuration or tuning for quality monitoring. Additionally, when the available internet speed is already high enough that single socket performance is decent, the use of Speedify or bonding may not be necessary.
+    Additionally, when the available internet speed is already high enough that single socket performance is decent and stable, the use of Speedify or bonding may not be necessary.
 
 
 SmoothWAN's project motives revolve around bridging the gap in open-source solutions, providing an accessible and cost-effective internet bonding router with seamless failover capabilities. While commercial software is employed to achieve these objectives, the project remains independent and not affiliated with Speedify or Connectify. The focus is on fulfilling user needs and providing a reliable and feature-rich solution within the constraints of available resources and existing open-source options.
