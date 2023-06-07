@@ -18,4 +18,4 @@
 
 ~~Buy me maté 🧉~~ , project is now dedicated to Parrot Rescue Lebanon.
   
-[Donate to Parrot Rescue Lebanon 🦜](https://www.parrotrescuelebanon.com/)
+**[Donate to Parrot Rescue Lebanon 🦜](https://gofund.me/63163a6c)**
