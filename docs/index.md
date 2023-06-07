@@ -35,8 +35,6 @@ SmoothWAN is an open-source initiative driven by the need for an affordable and 
 
 SmoothWAN's decision to utilize Speedify's commercial solution is motivated by the lack of affordable mixed-usage multi-mode bonding routers that are cost-effective and reliable. By incorporating Speedify's technology, SmoothWAN aims to bridge this gap and provide a comprehensive internet bonding solution accessible to a wider range of users.
 
-It is important to note that the inclusion of a commercial solution does not imply an endorsement or partnership with Speedify or Connectify. SmoothWAN remains an independent open-source project developed by a dedicated community. The selection of Speedify technology is based on its unique features, performance, and ability to address the specific requirements of internet bonding.
-
 ??? note "Speedify distinguishing features"
 
     **Note**: These are my own findings and they may not be accurate.
