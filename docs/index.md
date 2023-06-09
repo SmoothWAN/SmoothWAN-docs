@@ -25,6 +25,8 @@ SmoothWAN is an open-source initiative driven by the need for an affordable and 
 
 - **Alternative Solutions:** SmoothWAN also explores alternative self-hosting options, such as Engarde and TinyFEC VPN, providing users with additional choices and flexibility in building their internet bonding setups.
 
+*Typical setup*  
+<img src="https://raw.githubusercontent.com/TalalMash/SmoothWAN-web/main/smoothwan-illust.drawio.svg" width="600"/>
 
 *WebUI preview*
   
