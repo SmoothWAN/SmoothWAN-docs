@@ -11,7 +11,7 @@ Follow these steps to bypass a static IP client to a specific WAN:
 3. *Save* then head to *Network* -> *Routing* -> *IPv4 Rules* -> *Add*
 4. Set *Incoming interface* to `lan` and *source* to your client IP address. e.g `172.17.17.100/32`
 5. Select the `BYP` you chose earlier in *Table* and click *Save and Apply*.
-6. Done! For IPv6 users, use the same method only if the downstream provides /56 or less prefix. NAT6 option will be provided in future releases.
+6. Done! For IPv6 users, you will have to use MAC addresses instead (TODO: Guide).
 
 Never share the same routing table number `BYP` with other WANs/VPNs.
 
