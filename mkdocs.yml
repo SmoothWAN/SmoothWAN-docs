@@ -38,6 +38,7 @@ nav:
     - 'AdGuard Home' : 'adg.md'
     - 'VPN over VPN' : 'vpn.md'
     - 'Change WAN port to LAN' : 'lan.md'
+    - 'Change LAN port to WAN' : 'wan.md'
     - 'Bypass clients to a specific WAN' : 'wanbyp.md'
   - 'Advanced Configurations':
     - 'Proxmox Example' : 'proxmox.md'
