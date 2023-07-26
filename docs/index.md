@@ -45,7 +45,7 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 <img src="https://user-images.githubusercontent.com/96490382/208723215-92bb40df-c56d-4f82-b597-707aa8e35f7b.gif" width="800"/>
 
  ***
-??? note "A note for those looking for high speed downloads"
+???+ tip "A note for those looking for high speed downloads"
     Speedify is a *bonding* service that terminates your internet access to one IP address using a server. If you need to combine multiple *stable & reliable* internet connections above 300Mbit with no concern on dropouts and slowdowns, a *load balancer* may be more suitable and effecient by using multiple IP addresses eliminating the need for a server, assuming that the majority of the use cases at these speeds involve the use of apps using parallel connections or shared among multiple users.
 
     Parallel connections example: An app doing a download would split the file in two or more pieces and download each piece simulatenously, the load balancer would then balance each flow to the available internet connections.
@@ -54,7 +54,7 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 
     *Bonding* such as Speedify in this use case may be used for reducing issues with services sensitive to IP changes.
 
-??? note "Project motives"
+???+ abstract "Project motives"
  
     **Note:** These are my own findings on Speedify in technical terms and they are not accurate.
 
