@@ -26,8 +26,7 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - Overview by 🤖: 'index.md'
-  - Overview by 👨: 'indexhuman.md'
+  - Overview: 'index.md'
   - Features: 'features.md'
   - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
   - Quick Setup: 'installation.md'
