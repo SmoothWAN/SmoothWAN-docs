@@ -14,6 +14,7 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 - GL.iNet Flint and Slate AX
 
 *In progress*
+
 - NanoPi R6S
 - GL.iNet Flint
 - Banana Pi R3
@@ -29,6 +30,7 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 - Backpack streaming setup by using the webpage for monitoring.
 
 *Extras*
+
 - Use [Engarde](https://github.com/porech/engarde) for self-hosting alternative to Speedify's Redundant mode.
 - Use [TinyFEC VPN](https://github.com/wangyu-/tinyfecVPN) for fixing a lossy unusable internet connection using forward-error-correction at a speed cost while maintaining low latency.
 - Many more in [features](https://smoothwan.com/features/)
@@ -43,13 +45,14 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 <img src="https://user-images.githubusercontent.com/96490382/208723215-92bb40df-c56d-4f82-b597-707aa8e35f7b.gif" width="800"/>
 
  ***
->A note for those looking for high speed downloads: Speedify is a *bonding* service that terminates your internet access to one IP address using a server. If you need to combine multiple *stable & reliable* internet connections above 300Mbit with no concern on dropouts and slowdowns, a *load balancer* may be more suitable and effecient by using multiple IP addresses eliminating the need for a server, assuming that the majority of the use cases at these speeds involve the use of apps using parallel connections or shared among multiple users.
+??? note "A note for those looking for high speed downloads"
+    Speedify is a *bonding* service that terminates your internet access to one IP address using a server. If you need to combine multiple *stable & reliable* internet connections above 300Mbit with no concern on dropouts and slowdowns, a *load balancer* may be more suitable and effecient by using multiple IP addresses eliminating the need for a server, assuming that the majority of the use cases at these speeds involve the use of apps using parallel connections or shared among multiple users.
 
->Parallel connections example: An app doing a download would split the file in two or more pieces and download each piece simulatenously, the load balancer would then balance each flow to the available internet connections.
+    Parallel connections example: An app doing a download would split the file in two or more pieces and download each piece simulatenously, the load balancer would then balance each flow to the available internet connections.
 
->Not all apps split downloads/uploads and thus they may end up using one internet connection only, but 300Mbit is usually sufficient in this case, and the other internet connection will serve other apps/users. Apps that usually download large files will use parallel connections anyways.
+    Not all apps split downloads/uploads and thus they may end up using one internet connection only, but 300Mbit is usually sufficient in this case, and the other internet connection will serve other apps/users. Apps that usually download large files will use parallel connections anyways.
 
->*Bonding* such as Speedify in this use case is used for reducing issues with services sensitive to IP changes.
+    *Bonding* such as Speedify in this use case may be used for reducing issues with services sensitive to IP changes.
 
 ??? note "Project motives"
  
