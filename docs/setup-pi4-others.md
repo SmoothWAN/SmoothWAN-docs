@@ -45,7 +45,7 @@ You can change your web login password in the administration page.
 
     The internal Wi-Fi of the Pi is unstable for general use, connect using RPi4's Ethernet port to a configured AP/router:
 
-    [](https://github.com/TalalMash/SmoothWAN/discussions/18#discussioncomment-2521688){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    More info: https://github.com/TalalMash/SmoothWAN/discussions/18#discussioncomment-2521688
 
     ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/2a.svg){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
@@ -53,7 +53,7 @@ You can change your web login password in the administration page.
 
     ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/9.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-    ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/10.png" width="800"/>
+    ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/10.png"){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
 
 ***
