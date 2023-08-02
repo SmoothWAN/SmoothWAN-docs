@@ -29,7 +29,9 @@ nav:
   - Overview: 'index.md'
   - Features: 'features.md'
   - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
-  - Quick Setup: 'installation.md'
+  - 'Quick Setup':
+    - 'GL.iNet (Easiest)': 'setup-glinet.md'
+    - 'Raspberry Pi 4 or PC': 'setup-pi4-others.md'
   - Discussions: "https://smoothwan.discourse.group"
   - Tips & Troubleshooting: 'tips.md' 
   - 'Additional Configurations':
