@@ -45,9 +45,28 @@ You can change your web login password in the administration page.
 
     The internal Wi-Fi of the Pi is unstable for general use, connect using RPi4's Ethernet port to a configured AP/router:
 
-    More info: https://github.com/TalalMash/SmoothWAN/discussions/18#discussioncomment-2521688
-
+    1. Login to the Wi-Fi router's admin page or phone app.
+    2. Set "LAN IP address" to `172.17.17.5` (you can change the last number by preference from 5-10)
+    3. Disable "DHCP Server"
+    4. Now plug SmoothWAN appliance to the LAN port instead of WAN.
     ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/2a.svg){: style="max-height:700px;border:6px solid #d2ccf1;"}
+
+    You have just created a "Bridged Access Point".
+    You can access the Wi-Fi router setup page from `172.17.17.5`
+
+    Few examples with common vendors:
+    TP-Link
+    ![image](https://user-images.githubusercontent.com/96490382/162148977-397dfdae-56b8-43ae-8314-72eb1a3088cd.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
+    Asus
+    ![image](https://user-images.githubusercontent.com/96490382/162149499-ec290f69-8cf0-4de5-827f-66d772110eac.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
+    ![image](https://user-images.githubusercontent.com/96490382/162149580-8745d63f-3bb2-4b5d-9aca-755a06f2dd61.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
+    Linksys
+    ![image](https://user-images.githubusercontent.com/96490382/162150449-d08b8244-c984-4b80-8809-9157e2533abb.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
+    Netgear
+    ![image](https://user-images.githubusercontent.com/96490382/162150782-8f989520-31e6-42b7-908d-72990da3ebe5.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
+    Tenda
+    ![image](https://user-images.githubusercontent.com/96490382/162151069-23342150-3f05-4dc0-8efe-ff7b666298c6.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
+
 
     After connecting your mobile over the Wi-Fi AP/router, head over to Network->Wireless and disable Pi's Wi-Fi:
 
