@@ -31,7 +31,7 @@
 You can change your web login password in the administration page.
 ![](assets/setup/12.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-???+ tip "Change WAN Names"
+??? tip "Change WAN Names"
 
     To change the USB ports / WAN name, head to Interfaces->Multi-WAN USB:
 
@@ -41,7 +41,7 @@ You can change your web login password in the administration page.
 
     ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/13.png){:    style="max-height:700px;border:6px solid #d2ccf1;"}
 
-???+ tip "Using a Wi-Fi router or a Wi-Fi access point"
+??? tip "Using a Wi-Fi router or a Wi-Fi access point"
 
     The internal Wi-Fi of the Pi is unstable for general use, connect using RPi4's Ethernet port to a configured AP/router:
 
