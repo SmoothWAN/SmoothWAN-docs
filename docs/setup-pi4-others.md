@@ -72,7 +72,7 @@ You can change your web login password in the administration page.
 
     ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/9.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-    ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/10.png"){: style="max-height:700px;border:6px solid #d2ccf1;"}
+    ![](https://github.com/TalalMash/SmoothWAN-web/raw/main/Basic%20Setup%20Guide%20assets/10.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
 
 ***
