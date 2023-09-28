@@ -2,6 +2,10 @@
 <h2>I'm currently collecting frequently asked questions...</h2>
 
 ## Common issues
+
+### Unable to save changes - "Restart Speedify" visible - "Login button" invisible
+Make sure to add the web address to your ad-blocker whitelist.
+
 ### Speedify did not detect internet/WAN not visible
 An interface name that starts with "br-" prefix is ignored.
 
