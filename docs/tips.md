@@ -1,4 +1,10 @@
 
+### Using the Raspberry Pi as a tethering device
+
+Connect the Type-C port on the Pi to your PC/Camera, it will automatically tether the internet over Speedify.
+
+Windows requires an [additional driver](https://github.com/dukelec/mb/raw/master/doc/win_driver/mod-duo-rndis.zip).
+
 ### Identifying client using P2P or BitTorrent
 
 ![](assets/p2p.jpg){: style="max-height:700px;border:6px solid #d2ccf1;"}
