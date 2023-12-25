@@ -13,21 +13,11 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 - Raspberry Pi 4 / Pi 400
 - GL.iNet Flint and Slate AX
 
-*In progress*
-
-- NanoPi R6S
-- GL.iNet Flint 2
-- Banana Pi R3
-- NanoPi R5S
-- Banana Pi R64 
-
 *Use cases*  
 
 - Build a reliable internet access using multiple WANs for seamless failover, lossless and bonded speeds terminating over a single IP address.
 - Run a VPN over Speedify: corporate use, bypass captcha/IP-blocking etc.
-- Cover all connected devices in a home network when it's not possible or practical to share a WAN and run Speedify on each device e.g: limited mobile data, IoT and multimedia.  
-- Significantly lower budget alternative to commonly used enterprise solutions with the lack of off-the-shelf consumer solution. (2023)
-- Backpack streaming setup by using the webpage for monitoring.
+- Cover all connected devices in a home network when it's not possible or practical to share a WAN and run Speedify on each device e.g: limited mobile data, IoT and multimedia.
 
 *Extras*
 
@@ -43,16 +33,6 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 *WebUI preview*
   
 <img src="https://user-images.githubusercontent.com/96490382/208723215-92bb40df-c56d-4f82-b597-707aa8e35f7b.gif" width="800"/>
-
- ***
-???+ tip "A note for those looking for high speed downloads"
-    Speedify is a *bonding* service that terminates your internet access to one IP address using a server. If you need to combine multiple *stable & reliable* internet connections above 300Mbit with no concern on dropouts and slowdowns, a *load balancer* may be more suitable and effecient by using multiple IP addresses eliminating the need for a server, assuming that the majority of the use cases at these speeds involve the use of apps using parallel connections or shared among multiple users.
-
-    Parallel connections example: An app doing a download would split the file in two or more pieces and download each piece simulatenously, the load balancer would then balance each flow to the available internet connections.
-
-    Not all apps split downloads/uploads and thus they may end up using one internet connection only, but 300Mbit is usually sufficient in this case, and the other internet connection will serve other apps/users. Apps that usually download large files will use parallel connections anyways.
-
-    *Bonding* such as Speedify in this use case may be used for reducing issues with services sensitive to IP changes.
 
 ???+ abstract "Project motives"
  
