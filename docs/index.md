@@ -13,6 +13,8 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 - Raspberry Pi 4 / Pi 400
 - GL.iNet Flint and Slate AX
 
+For running on other hardware or existing OpenWrt users you can use the unofficial installer [here](https://github.com/TalalMash/Unofficial-Speedify-Installer-For-OpenWrt)
+
 *Use cases*  
 
 - Build a reliable internet access using multiple WANs for seamless failover, lossless and bonded speeds terminating over a single IP address.
