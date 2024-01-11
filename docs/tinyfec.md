@@ -10,7 +10,7 @@
 
 ***
 
-Server setup using Vultr as an example with cloud-init:  
+Server setup using Vultr [(Amazon EC2)](https://smoothwan.discourse.group/t/smoothwan-engarde-on-oracle-cloud/102/13?u=talalm) as an example with cloud-init:  
 Visit <a href='https://my.vultr.com/'>https://my.vultr.com</a> and login/signup, then follow the arrows:
 <img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/1.webp" style="max-height:300px"/><br>
 Choose Cloud Compute
