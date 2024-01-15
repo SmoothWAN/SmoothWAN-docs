@@ -36,7 +36,7 @@ Setup your VPN as you would in any OpenWrt router, many VPN providers provide in
 7. *Save and Apply*, confirm that your IP address has changed from the bypassed clients.
 8. Done! For IPv6 users, you will have to use MAC addresses instead (TODO: Guide).
 
-To tunnel specific clients/IP addresses to the VPN, treat the VPN interface as a WAN, and follow the steps in ![Bypass clients to a specific WAN](wanbyp.md) instead of this guide.
+To tunnel specific clients/IP addresses to the VPN, treat the VPN interface as a WAN, and follow the steps in [Bypass clients to a specific WAN](wanbyp.md) instead of this guide.
 
 Never share the same routing table number `BYP` with other WANs/VPNs.
 Note that some VPN providers throttle multi-hop/cascading setups.

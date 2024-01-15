@@ -12,6 +12,10 @@ runcmd:
   - systemctl disable ssh
   - systemctl stop ssh
   - ufw disable
+  - iptables -P INPUT ACCEPT
+  - iptables -P OUTPUT ACCEPT
+  - iptables -P FORWARD ACCEPT
+  - iptables -F
   - SERVER_PUB_NIC=$(ip route | awk 'NR==1{print$5}') #Default route is first line _usually_
   - printf $Password | openssl dgst -binary -sha256 | openssl base64 -A > /root/private-key
   - ckey=$(cat /root/private-key | openssl dgst -binary -sha256 | openssl base64 -A)

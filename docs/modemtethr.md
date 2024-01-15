@@ -1,6 +1,6 @@
 ## USB Modems
 
-Modems using RNDIS or "virtual Ethernet adapter" are supported. 
+Modems using RNDIS or "virtual Ethernet adapter" are easier to setup. 
 
 Suggested models:
 

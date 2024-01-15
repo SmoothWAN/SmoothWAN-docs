@@ -1,7 +1,7 @@
 [-> Upcoming features <-](https://github.com/TalalMash/SmoothWAN/projects/1)  
   
 - Preset network configuration for various hardware
-- Use [your own VPN](https://smoothwan.com/vpn/) on top of Speedify/Engarde/TinyFEC.
+- Use [your own VPN](vpn) on top of Speedify/Engarde/TinyFEC.
 - Unique interface naming for USB network devices to preserve data caps and statistics.
 - Speedify installer, auto-update and version selection
 - Bypass Speedify with selective WAN for local devices/ports/domains using [Split-tunnling](wanbyp), or using Speedify's internal bypass function with a web app for adaptive WAN selection using data caps and other conditions, utilizing `speedify_cli`
@@ -17,6 +17,6 @@
 - One-click cloud-init script for setting up Engarde & TinyFEC VPN in cloud
 - BitTorrent detection log showing client IP addresses (needed for non-P2P Speedify servers)
 - Per-client (LAN) bandwidth limiter [EQoS](https://github.com/Huangjoe123/luci-app-eqos)
-- Auto expand storage to physical free space on PC/Pi/BPi
-- Working Speedify captive portal login per WAN (locked resolv.conf)
+- Auto expand storage to physical free space on PC/Pi
+- Working Speedify captive portal login per WAN
 - IPv6 ready

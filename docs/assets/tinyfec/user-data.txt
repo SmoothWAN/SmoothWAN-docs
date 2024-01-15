@@ -10,6 +10,10 @@ runcmd:
   - systemctl disable ssh
   - systemctl stop ssh
   - ufw disable
+  - iptables -P INPUT ACCEPT
+  - iptables -P OUTPUT ACCEPT
+  - iptables -P FORWARD ACCEPT
+  - iptables -F
   - SERVER_PUB_NIC=$(ip route | awk 'NR==1{print$5}') #Default route is first line _usually_
   - ip address add dev wg0 10.202.0.1 peer 10.202.0.2
   - wget https://github.com/SmoothWAN/tinyfecVPN/releases/download/master/tinyvpn_amd64 -O /usr/bin/tinyvpn

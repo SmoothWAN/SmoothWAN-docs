@@ -1,3 +1,4 @@
+*Note for PCs: USB flash drives are not recommended [#109](https://github.com/SmoothWAN/SmoothWAN/discussions/109), use SD card with USB reader if there is no internal storage.*
 
 ### USB Ethernet Adapter
 **Not recommended:**  
@@ -15,7 +16,6 @@
 * Unmanaged NETGEAR GS108UK
 * Unmanaged ~8 USD TOTOLINK S808G
 
-#### Note for PCs: USB flash drives are not recommended [#109](https://github.com/SmoothWAN/SmoothWAN/discussions/109), use SD card with USB reader if there is no internal storage.
 
 ***
 

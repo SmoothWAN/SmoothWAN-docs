@@ -2,10 +2,9 @@
 - [TinyFEC VPN (by wangyu-)](https://github.com/wangyu-/tinyfecVPN): A VPN Designed for Lossy Links, with built-in Forward Error Correction (FEC). Improves your network quality on a high-latency lossy link.
 - Corrects a single internet source (WAN) only.
 - Improves network speed on lossy internet connections by sending redundant packets.
-- Low goodput on high throughput connections due to the redundancy, however dynamic adjustment is tuned.
+- Low goodput on high throughput connections due to the redundancy, however dynamic adjustment is enabled.
 - Dynamic adjustment increases/decreases redundant packets on packet loss levels to reduce bandwidth waste.
-- Latency variations and high latency is a side effect of correcting packet loss.
-- Significant performance improvements are noticeable with TCP connections and DNS queries.
+- Significant performance improvements are noticeable with single TCP connections and browsing responsiveness.
 - Processing intensive, requiring 3.0Ghz Intel/AMD router and server for >100Mbit speeds.
 
 ***

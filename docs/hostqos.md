@@ -6,7 +6,8 @@
 1. In ingress textbox add `diffserv4 nat dual-dsthost ingress` & in egress: `diffserv4 nat dual-srchost ack-filter`
 1. _Save & Apply_, changes are effective immediately.
 
-Tip: 
+## Tips
+
 * Reduce the additional 20% added if there is no effect in small increments, test the results by downloading a large file with parallel sockets (download accelerator or speed test) on two clients with a 10 second delay before starting the download on the second client, both should show the speed each at ~50% of the total aggregate speed.   
 
 * Without this setup, the delayed client will use 1/4th or so without host isolation shaping unless both clients (TCP) start at the same time due to bursty throughput, the effect is less noticable with near servers (less than 30ms delay).  

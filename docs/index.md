@@ -1,3 +1,6 @@
+**[Donate to Parrot Rescue Lebanon 🦜](https://gofund.me/63163a6c)**  
+
+
 <img src="https://user-images.githubusercontent.com/96490382/185179903-4cbac04d-d0f7-47e2-b81a-167803205d33.png" width="800"/>
 
 ## Internet bonding router with seamless failover using Speedify 

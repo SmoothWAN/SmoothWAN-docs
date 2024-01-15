@@ -1,7 +1,7 @@
 ## Description
 Install SmoothWAN to an internal (non-removable) disk such as a laptop.
 
-Warning: All data will be lost.
+*Warning: All data will be lost.*
 
 ## Instructions
 After running SmoothWAN with the [Quick Setup](rpi4.md) instructions using a USB flash drive with a working internet connection, log-in to the Web UI:

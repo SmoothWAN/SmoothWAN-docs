@@ -1,5 +1,5 @@
 ## Installation using Proxmox
-### Using Proxmox in VMware as a demo
+
 Application: Running SmoothWAN alongside Ubuntu/Windows or containers.
 
 - Download the VMDK image from the [release](https://github.com/TalalMash/SmoothWAN/releases) page.

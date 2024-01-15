@@ -1,3 +1,5 @@
+###Due to popular request and leak-proof DNS, ADGH is the default DNS server.
+
 ##AdGuard Home is a local network-wide advertising blocker
 
 *How to enable adblocking*
@@ -10,4 +12,3 @@
 - You can change password in the configuration tab.
 
 
-###Due to popular request and leak-proof DNS, ADGH is the default DNS server.

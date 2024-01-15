@@ -5,13 +5,13 @@
 ### Troubleshooting
 
 ## Restarting on large downloads or livestream test
-Indicates poor power supply, use the official RPi power supply or a 5.3V adapter and a USB-PD Type-C cable.**
+Indicates poor power supply, use the official RPi power supply or a 5.3V adapter and a USB-PD Type-C cable.
 
 ## Red LED flashing erratically
-Indicates poor power supply.**
+Indicates poor power supply.
 
 ## Unable to connect to "SmoothWAN Setup" SSID
 Setup in close proximity to the Pi, signal is not an indicator to use.  
 Cause: RPi's internal Wi-Fi "ACK-drop" interval is very short and not adjustable.
 
-** For stability, you can reduce power consumption as well as performance (~180-Mbit) by editing `config.txt` in SD and adding `arm_freq=1000` at the end of the file.
+For maximum stability, you can reduce power consumption as well as performance (~180-Mbit) by editing `config.txt` in SD and adding `arm_freq=1000` at the end of the file.

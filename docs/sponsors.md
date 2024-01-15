@@ -1,9 +1,9 @@
 
+- Testing, feedback & donations from users 
 - OpenWRT and LuCI  
-- Speedify for providing cross-platform static binaries with almost no dependencies  
-- GL.iNet for providing complete and functional build environment  
-- Engarde and TinyFEC VPN!
-- Testing and feedback from users 
+- Speedify support
+- [Engarde (by porech)](https://github.com/porech/engarde)
+- [TinyFEC VPN (by wangyu-)](https://github.com/wangyu-/tinyfecVPN)
 
 ***
 
