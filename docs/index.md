@@ -16,7 +16,7 @@ This project is not affiliated with  [Speedify](https://speedify.com/) or Connec
 - Raspberry Pi 4 / Pi 400
 - GL.iNet Flint and Slate AX
 
-~For running on other hardware or existing OpenWrt users you can use the unofficial installer [here](https://github.com/TalalMash/Unofficial-Speedify-Installer-For-OpenWrt)~
+~~For running on other hardware or existing OpenWrt users you can use the unofficial installer [here](https://github.com/TalalMash/Unofficial-Speedify-Installer-For-OpenWrt)~~
 
 Update: [Speedify officially supports OpenWrt as of Q4 2024](https://support.speedify.com/article/918-openwrt)
 
