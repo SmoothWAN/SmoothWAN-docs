@@ -1,4 +1,4 @@
-<b>Speedify users: Free accounts are not supported (last update: August 2023)</b>
+<b>As of Q4 2024, Speedify now requires a [license for routers](https://speedify.com/store/#routers).</b>
 <h2>Installation using a smartphone as an example for quick setup</h2>
 
 - Download and follow the instructions from the [release](https://github.com/TalalMash/SmoothWAN/releases) page. <br>
