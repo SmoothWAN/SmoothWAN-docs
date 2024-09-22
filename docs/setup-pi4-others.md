@@ -1,4 +1,4 @@
-<b>Speedify users: Free accounts are not supported (last update: August 2023)</b>
+<b>As of Q4 2024, Speedify now requires a [license for routers](https://speedify.com/store/#routers).</b>
 
 *Raspberry Pis are now hard to source, the current support is community testing, few screenshots are not up to date and may look slightly different.*
 <h2>Setup</h2>
