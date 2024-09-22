@@ -8,6 +8,8 @@
 
 This project is not affiliated with  [Speedify](https://speedify.com/) or Connectify.
 
+As of Q4 2024, Speedify now requires a [license for routers](https://speedify.com/store/#routers).
+
 *[WAN](https://en.wikipedia.org/wiki/Wide_area_network) is an internet connection.*
 
 *Supported hardware ordered by performance*
