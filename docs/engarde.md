@@ -10,26 +10,26 @@
 
 Server setup using Vultr [(Amazon EC2)](https://smoothwan.discourse.group/t/smoothwan-engarde-on-oracle-cloud/102/13?u=talalm) as an example with cloud-init:</h4>
 Visit <a href='https://my.vultr.com/'>https://my.vultr.com</a> and login/signup, then follow the arrows:
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/1.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/1.webp" style="max-height:300px"/><br>
 Choose Cloud Compute
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/2.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/2.webp" style="max-height:300px"/><br>
 Choose High Frequency (since Engarde is single threaded)
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/3.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/3.webp" style="max-height:300px"/><br>
 Choose latest Ubuntu and the nearest location, example selects European region
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/4.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/4.webp" style="max-height:300px"/><br>
 Choose a plan according to bandwidth to be used, not hardware resources
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/5.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/5.webp" style="max-height:300px"/><br>
 Copy and paste the content below then locate and change the password in the pasted content:
-<iframe style="border:6px solid #d2ccf1;" src="/assets/engarde/user-data.txt"></iframe>
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/6.webp" style="max-height:300px"/><br>
+<iframe style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/user-data.txt"></iframe>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/6.webp" style="max-height:300px"/><br>
 Wait few minutes till the IP address appears, and note it down  
 You can wait few minutes or monitor progress by clicking View Console
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/7.webp" style="max-height:300px"/><br>
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/8.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/7.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/8.webp" style="max-height:300px"/><br>
 Copy the noted IP address & password in the configuration tab of this page and check Enable, Save & Apply
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/9.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/9.webp" style="max-height:300px"/><br>
 Engarde will automatically detect connectivty via any interface in Active Interfaces section and use it!
-<img style="border:6px solid #d2ccf1;" src="/assets/engarde/10.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/engarde/10.webp" style="max-height:300px"/><br>
 All done! Note that the example shows only one WAN plugged in.  
 Check your IP address at ping.eu,speedtest.net,etc... to check if it's working correctly, it should match the IP address of your server.
 <hr>

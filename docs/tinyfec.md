@@ -11,24 +11,24 @@
 
 Server setup using Vultr [(Amazon EC2)](https://smoothwan.discourse.group/t/smoothwan-engarde-on-oracle-cloud/102/13?u=talalm) as an example with cloud-init:  
 Visit <a href='https://my.vultr.com/'>https://my.vultr.com</a> and login/signup, then follow the arrows:
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/1.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/1.webp" style="max-height:300px"/><br>
 Choose Cloud Compute
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/2.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/2.webp" style="max-height:300px"/><br>
 Choose High Frequency (since TinyFEC VPN is single threaded)
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/3.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/3.webp" style="max-height:300px"/><br>
 Choose latest Ubuntu and the nearest location, example selects European region
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/4.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/4.webp" style="max-height:300px"/><br>
 Choose a plan according to bandwidth to be used, not hardware resources
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/5.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/5.webp" style="max-height:300px"/><br>
 Copy and paste the content below then locate and change the password in the pasted content:
-<iframe style="border:6px solid #d2ccf1;" src="/assets/tinyfec/user-data.txt"></iframe>
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/6.webp" style="max-height:300px"/><br>
+<iframe style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/user-data.txt"></iframe>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/6.webp" style="max-height:300px"/><br>
 Wait few minutes till the IP address appears, and note it down
 You can wait few minutes or monitor progress by clicking View Console
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/7.webp" style="max-height:300px"/><br>
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/8.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/7.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/8.webp" style="max-height:300px"/><br>
 Copy the noted IP address & password in the configuration tab of this page and check Enable, Save & Apply
-<img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/9.webp" style="max-height:300px"/><br>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/tinyfec/9.webp" style="max-height:300px"/><br>
 All done! Check your IP address at ping.eu,speedtest.net,etc... to check if it's working correctly, it should match the IP address of your server.
 <hr>
 <h3>Notes:</h3>

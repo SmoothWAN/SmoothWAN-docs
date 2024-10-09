@@ -5,7 +5,7 @@
 *How to enable adblocking*
 
 - Visit https://172.17.17.2:3000 or your LAN IP :3000 and click "Enable protection"  
-<img style="border:6px solid #d2ccf1;" src="/assets/adg.webp" style="max-height:300px"/>
+<img style="border:6px solid #d2ccf1;" src="/SmoothWAN-docs/assets/adg.webp" style="max-height:300px"/>
 
 *Notes*
 
