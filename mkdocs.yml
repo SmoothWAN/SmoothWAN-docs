@@ -1,4 +1,5 @@
 site_name: SmoothWAN
+site_url: https://smoothwan.com
 repo_url: https://github.com/SmoothWAN/SmoothWAN
 repo_name: SmoothWAN
 theme:
