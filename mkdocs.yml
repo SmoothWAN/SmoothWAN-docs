@@ -33,7 +33,7 @@ nav:
   - 'Quick Setup':
     - 'GL.iNet (Easiest)': 'setup-glinet.md'
     - 'Raspberry Pi 4 or PC': 'setup-pi4-others.md'
-  - Discussions: "https://smoothwan.discourse.group"
+  - Discussions: "https://smoothwan.github.io/SmoothWAN-forum-archive/smoothwan.discourse.group/"
   - Tips & Troubleshooting: 'tips.md' 
   - 'Additional Configurations':
     - 'Tailscale' : 'tail.md'
