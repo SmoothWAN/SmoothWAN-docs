@@ -1,0 +1,25 @@
+/* Hide the header bar */
+.md-header {
+  display: none !important;
+}
+
+/* Hide the main page title (usually the first H1) */
+.md-content h1:first-of-type {
+  display: none !important;
+}
+
+/* Show the header and nav on mobile */
+@media (max-width: 76.1875em) {
+  .md-header,
+  .md-tabs,
+  .md-nav {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+}
+
+footer {
+  display: none;
+}
