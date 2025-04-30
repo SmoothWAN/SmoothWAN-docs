@@ -1,14 +1,16 @@
-###Due to popular request and leak-proof DNS, ADGH is the default DNS server.
+# AdGuard Home (ADGH)
 
-##AdGuard Home is a local network-wide advertising blocker
+AdGuard Home is a local, network-wide advertising blocker. Due to popular demand and its leak-proof DNS capabilities, ADGH is now the default DNS server.
 
-*How to enable adblocking*
+## How to Enable Ad Blocking
 
-- Visit https://172.17.17.2:3000 or your LAN IP :3000 and click "Enable protection"  
-<img style="border:6px solid #d2ccf1;" src="/assets/adg.webp" style="max-height:300px"/>
+1. Visit [http://172.17.17.2:3000](http://172.17.17.2:3000) or your LAN IP followed by `:3000`.
+2. Click **Enable Protection**.
 
-*Notes*
+![AdGuard Home Interface](/assets/adg.webp){ style="border:6px solid #d2ccf1; max-height:300px;" }
 
-- You can change password in the configuration tab.
+## Notes
+
+- You can change the password in the **Configuration** tab.
 
 

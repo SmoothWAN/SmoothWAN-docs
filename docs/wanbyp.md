@@ -1,4 +1,4 @@
-## Split Tunneling
+### Split Tunneling
 
 Set your DHCP server to provide a static IP address to the target client. (Can be skipped if set on client)
 
@@ -15,7 +15,7 @@ Follow these steps to bypass a static IP client to a specific WAN:
 
 Never share the same routing table number `BYP` with other WANs/VPNs.
 
-### Bypass a range of IP addresses
+#### Bypass a range of IP addresses
 
 Use CIDR calculators such as https://www.ipaddressguide.com/cidr  
 Example: using `172.17.17.32/27` will bypass clients with IP addresses between `172.17.17.32` and `172.17.17.63`  

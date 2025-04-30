@@ -1,50 +1,115 @@
+### USB network device random name on restart
 
-### Using the Raspberry Pi as a tethering device
+Some USB devices may experience issues with SmoothWAN's built-in USB network adapter renaming feature (the unique name shown in the example as `USB_1f16`). You can disable this option in the Speedify navigation menu under Options. If disabled, the adapters will be named based on the order of their initial detection (e.g., usb0, usb1), which may vary with each power-up. For data-limited users, Speedify will not be able to associate a specific USB-connected adapter with the set data limits and statistics.
 
-Connect the Type-C port on the Pi to your PC/Camera, it will automatically tether the internet over Speedify.
+![](assets/setup/13.webp){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-For 0.99.9HF5 and below Windows requires an [additional driver](https://github.com/dukelec/mb/raw/master/doc/win_driver/mod-duo-rndis.zip).
+---
 
-### Identifying client using P2P or BitTorrent
+
+### Using the Raspberry Pi as a Tethering Device
+
+Connect the Type-C port on the Raspberry Pi to your PC or camera. It will automatically share its internet connection over Speedify.
+
+---
+
+### Identifying Clients Using P2P or BitTorrent
 
 ![](assets/p2p.jpg){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-### Issues with Wi-Fi 2.4Ghz clients (Wireless WAN)
+---
 
-Check for connected USB 3.0+ devices as it's a [common issue with 2.4Ghz Wi-Fi](https://en.wikipedia.org/wiki/USB_3.0#Issues)
+### Issues with 2.4GHz Wi-Fi
 
-## Bridging a Wi-Fi SSID to an ethernet port
+Check for connected USB 3.0+ devices, as it's a [known issue with 2.4GHz Wi-Fi](https://en.wikipedia.org/wiki/USB_3.0#Issues).
 
-Create a new bridge, and move the port from LAN/WAN to the new bridge, then select the bridge in Interfaces -> Wireless -> Edit -> Network.
+---
 
-### Quick VLAN setup
+### Bridging a Wi-Fi SSID to an Ethernet Port
 
-Assuming ISP modem is plugged at trunk #1 on the managed switch:  
-*Network* -> *Interfaces* -> *Devices* -> *Add device configuration* 
+1. Create a new bridge.
+2. Move the port from LAN/WAN to the new bridge.
+3. Go to **Interfaces → Wireless → Edit → Network**, and select the newly created bridge.
 
-(change _Device Name_ for a more friendly name to appear in Speedify UI) 
+---
 
-![](https://user-images.githubusercontent.com/96490382/166711545-70232fd3-dc40-4f06-9a05-4d6fb6697d89.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
+### Quick VLAN Setup
 
-*Network* -> *Interfaces* -> *Add new interface*   
+Assuming the ISP modem is plugged into trunk port #1 on the managed switch:
 
-![](https://user-images.githubusercontent.com/96490382/166711876-88b897a8-4439-4c77-b3eb-0b333be3a869.png){: style="max-height:700px;border:6px solid #d2ccf1;"}  
+1. Navigate to **Network → Interfaces → Devices → Add device configuration**  
+   *(Change the _Device Name_ to a more user-friendly name for easier identification in the Speedify UI.)*
 
-Set Firewall zone to RED, and gateway metric to `200` or more.
+   ![](https://user-images.githubusercontent.com/96490382/166711545-70232fd3-dc40-4f06-9a05-4d6fb6697d89.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-### Reduceing bufferbloat for gaming
-* Set one WAN as "Primary", preferably the landline or the lowest latency, others as "Secondary".    
-* Set transport mode to UDP, and rate limit each to 70% of max speed.  
-* Optionally set mode to redundant.
-* Engarde may perform better than Speedify in this case but will use significantly more bandwidth.
+2. Go to **Network → Interfaces → Add new interface**
 
-*Ping (ICMP) is not a good measure, in "Streaming mode" detected flows are optimized and use a different path (redundant - low buffer). Use in-game latency indicators.*   
-*Speedify UDP mode seems to require powerful hardware to control bufferbloat to a minimum (~10%), use an Intel/AMD router.*
+   ![](https://user-images.githubusercontent.com/96490382/166711876-88b897a8-4439-4c77-b3eb-0b333be3a869.png){: style="max-height:700px;border:6px solid #d2ccf1;"}
 
-### Hide interface or WAN from Speedify
+3. Set the Firewall zone to `RED` and the gateway metric to `200` or higher.
 
-Rename interface to start with "br-"
+---
 
-### Check downloaded image integrity
-You can use [in-browser tools](https://emn178.github.io/online-tools/sha256_checksum.html) to check the file for errors, the calculated sum is in `sha256.*` file in the Releases section. 
-OpenWrt upgrade UI may also show you the sha256 checksum calculated after being received.
+### Reducing Bufferbloat for Gaming
+
+* Set one WAN (preferably landline or lowest-latency link) as **Primary**, and others as **Secondary**  
+* Set transport mode to **UDP** and limit each WAN's rate to 70% of its maximum speed  
+* Optionally enable **Redundant Mode**  
+* **[Engarde](/engarde)** may perform better than Speedify for gaming, but it consumes significantly more bandwidth  
+
+
+!!! note "Note"
+    * ICMP ping is not a reliable latency metric. In "Streaming Mode", Speedify routes optimized flows over low-latency redundant paths. Use in-game latency indicators instead.  
+    * Speedify's UDP mode requires relatively powerful hardware (Intel/AMD) to minimize bufferbloat (~10%).
+---
+
+### Hiding an Interface or WAN from Speedify
+
+Rename the interface so its name begins with `br-`.
+
+---
+
+### Checking Downloaded Image Integrity
+
+Normally the OpenWRT upgrade interface displays the checksum after receiving the file.
+
+Else use [this in-browser tool](https://emn178.github.io/online-tools/sha256_checksum.html) to verify the integrity of your download.  
+The expected SHA-256 checksum is listed in the `sha256.*` file in the Releases section.
+
+---
+
+### Speedify UI issues
+
+**Unable to Save Changes – "Restart Speedify" Visible – "Login Button" Invisible**
+
+Make sure to add the web address to your ad-blocker whitelist.  
+Speedify may have crashed or stopped working.
+
+---
+
+### Speedify Did Not Detect Internet / WAN Not Visible
+
+An interface name that starts with the `br-` prefix is ignored.
+
+---
+
+### Speedify Bypass (Domain-Based) Not Working with PPPoE Interfaces
+
+As of Speedify version 12.6, Speedify seems to use the gateway of each WAN as the DNS resolver for bypass.  
+This may have been fixed in future versions.  
+You can use VPN Policy-Based Routing as an alternative.
+
+---
+
+### Speedify Installer Issues
+
+* Wait around a minute on fresh start or after plugging in a single WAN to synchronize date/time  
+* Reboot after first boot or check the date/time in **System**  
+* Use the best quality WAN during installation
+
+---
+
+### Internet Connectivity Issue on Intel/AMD Build
+
+Depending on the hardware and how interfaces are brought up, OpenWRT may create a default WAN interface on first boot as `WAN` and `WAN_6`, especially if there is long delay.  
+Delete these interfaces in **Network → Interfaces** and restart.

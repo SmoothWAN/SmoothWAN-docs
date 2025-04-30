@@ -1,20 +1,24 @@
 site_name: SmoothWAN
 site_url: https://smoothwan.com
-repo_url: https://github.com/SmoothWAN/SmoothWAN
-repo_name: SmoothWAN
+# repo_url: https://github.com/SmoothWAN/SmoothWAN
+# repo_name: SmoothWAN
 theme:
   name: material
-  logo: assets/logo.png
+  logo: "assets/logo.png"
   features:
     - navigation.instant
   icon:
     repo: fontawesome/brands/github-alt
   favicon: assets/logo.png
 
-plugins:
-  - search
+extra_css:
+  - "styles/extra.css"
+
+plugins: []
 
 markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -25,15 +29,16 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tilde
   - attr_list
+  - def_list
 
 nav:
   - Overview: 'index.md'
   - Features: 'features.md'
   - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
   - 'Quick Setup':
-    - 'GL.iNet (Easiest)': 'setup-glinet.md'
-    - 'Raspberry Pi 4 or PC': 'setup-pi4-others.md'
-  - Discussions: "https://smoothwan.github.io/SmoothWAN-forum-archive/smoothwan.discourse.group/"
+    - 'GL.iNet': 'setup-glinet.md'
+    - 'Raspberry Pi 4 & PC': 'setup-pi4-others.md'
+  - Discussions (Archive): "https://smoothwan.github.io/SmoothWAN-forum-archive/smoothwan.discourse.group/"
   - Tips & Troubleshooting: 'tips.md' 
   - 'Additional Configurations':
     - 'Tailscale' : 'tail.md'
@@ -53,10 +58,8 @@ nav:
     - 'Raspberry Pi 4': 'rpi4.md'
     - 'Tested Hardware': 'tsthw.md'
     - 'Wi-Fi, modems, and tethering devices': 'modemtethr.md'
-  - Self-host Single Function:
+  - Self-hosting Alternative:
     - Engarde: 'engarde.md'
     - TinyFEC: 'tinyfec.md'
   - Development Notes: 'devl.md'
-  - FAQ: 'faq.md'
-  - Contact: 'contact.md'
   - Credits & Donation: 'sponsors.md'

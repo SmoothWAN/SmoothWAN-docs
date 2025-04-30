@@ -24,9 +24,6 @@ Setup your VPN as you would in any OpenWrt router, many VPN providers provide in
     3. Add an IP rule by going to *Network* -> *Routing* -> *IPv4 Rules* -> *Add*.
     4. Choose `main` table & in *Advanced Settings* tab, enter `0x100` in *Firewall mark* and `3276` in *Priority*.
 
-??? note "OpenVPN example"
-
-    - TODO
 
 2. Edit your VPN configuration in *Network* -> *Interface* -> *Edit* next to the VPN interface and select one of the `BYP` tables in *Advanced Settings* tab -> *Override IPv4 routing table* (as well as IPv6 if used), there are 10 presets. 
 3. Add an IP rule by going to *Network* -> *Routing* -> *IPv4 Rules* -> *Add* button.

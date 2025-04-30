@@ -1,22 +1,20 @@
-[-> Upcoming features <-](https://github.com/TalalMash/SmoothWAN/projects/1)  
-  
-- Preset network configuration for various hardware
-- Use [your own VPN](vpn) on top of Speedify/Engarde/TinyFEC.
-- Unique interface naming for USB network devices to preserve data caps and statistics.
-- Speedify installer, auto-update and version selection
-- Bypass Speedify with selective WAN for local devices/ports/domains using [Split-tunnling](wanbyp), or using Speedify's internal bypass function with a web app for adaptive WAN selection using data caps and other conditions, utilizing `speedify_cli`
-- [ntopng installer](https://www.ntop.org/products/traffic-analysis/ntop/) for deep packet analysis, real-time flow performance metrics, and traffic identification.
-- [AdGuard Home](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-AdGuard-Home-(GL.iNet)) pre-installed and pre-configured (one-click enable) with password change UI addition and working client statistics
-- [Tailscale installer](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-Tailscale) for easy remote access to connected devices in your home network  
-- Per platform OpenWRT VPN optimization and additional hints in LuCI apps
-- Extended OpenWrt's diagnostics web page to include Pi `vcgencmd` tool in-browser and independent WAN speed test
-- Download logs for various apps from browser
-- VPN PBR pre-configured
-- [Engarde](/engarde) as an self-hosting alternative to Speedify's Redundant mode (lossless by duplicating traffic across WANs - no aggregation)
-- [TinyFEC VPN](/tinyfec) for fixing a lossy unusable internet connection using forward-error-correction (single WAN - self-hosting)
-- One-click cloud-init script for setting up Engarde & TinyFEC VPN in cloud
-- BitTorrent detection log showing client IP addresses (needed for non-P2P Speedify servers)
-- Per-client (LAN) bandwidth limiter [EQoS](https://github.com/Huangjoe123/luci-app-eqos)
-- Auto expand storage to physical free space on PC/Pi
-- Working Speedify captive portal login per WAN
-- IPv6 ready
+- Preset network configuration for various hardware  
+- Use [your own VPN](/vpn) on top of Speedify, Engarde, or TinyFEC  
+- Unique interface naming for USB network devices to preserve data caps and statistics  
+- Speedify installer with auto-update and version selection  
+- Bypass Speedify with selective WAN for local devices/ports/domains using [split tunneling](/wanbyp), or use Speedify’s internal bypass feature along with a web app for adaptive WAN selection based on data caps and other conditions, utilizing `speedify_cli`  
+- [ntopng installer](https://www.ntop.org/products/traffic-analysis/ntop/) for deep packet inspection, real-time flow performance metrics, and traffic identification  
+- [AdGuard Home](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-AdGuard-Home-(GL.iNet)) pre-installed and pre-configured (one-click enable), with password change UI and working client statistics  
+- [Tailscale installer](https://github.com/TalalMash/SmoothWAN/wiki/Setting-up-Tailscale) for easy remote access to devices in your home network  
+- Per-platform OpenWRT VPN optimization and additional hints in LuCI apps  
+- Extended OpenWRT diagnostics page includes the Pi `vcgencmd` tool and independent WAN speed test in-browser  
+- Download logs for various apps from the browser  
+- VPN PBR pre-configured  
+- [Engarde](/engarde) as a self-hosted alternative to Speedify’s Redundant mode  
+- [TinyFEC VPN](/tinyfec) for stabilizing a lossy but fast internet connection using forward error correction  
+- One-click cloud-init script for setting up Engarde and TinyFEC VPN in the cloud  
+- BitTorrent detection log showing client IPs (useful for non-P2P Speedify servers)  
+- Per-client (LAN) bandwidth limiter using [EQoS](https://github.com/Huangjoe123/luci-app-eqos)  
+- Automatically expand storage to full available space on PC or Pi  
+- Working Speedify captive portal login per WAN  
+- IPv6 ready  

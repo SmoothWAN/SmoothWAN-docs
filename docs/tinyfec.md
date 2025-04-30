@@ -29,7 +29,7 @@ You can wait few minutes or monitor progress by clicking View Console
 <img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/8.webp" style="max-height:300px"/><br>
 Copy the noted IP address & password in the configuration tab of this page and check Enable, Save & Apply
 <img style="border:6px solid #d2ccf1;" src="/assets/tinyfec/9.webp" style="max-height:300px"/><br>
-All done! Check your IP address at ping.eu,speedtest.net,etc... to check if it's working correctly, it should match the IP address of your server.
+All done! Check your IP address to check if it's working correctly, it should match the IP address of your server.
 <hr>
 <h3>Notes:</h3>
 
@@ -37,7 +37,7 @@ All done! Check your IP address at ping.eu,speedtest.net,etc... to check if it's
 - Modern implementation UPnP is automatically configured and enabled for automatic port forwarding.
 - You can also forward ports in VPN -> VPN Port Forwarding.
 - Changing password is done by simply changing the cloud-init field and doing a server reinstall.
-- VPN via server providers is (usually) not log-free as it's used for abuse monitoring, privacy may be equivalent to a direct ISP connection.
+- VPN via server providers is (usually) not log-free as it's used for abuse monitoring, privacy may be equivalent to a direct ISP connection, IP address bound to billing..
 - You can use other providers, Vultr is used as it's the easiest, there is no affiliation.
 - You may need to modify the cloud-init script for some providers, it's limited to KVM/Virt machines only.
 - SSH on the server is disabled by default.
